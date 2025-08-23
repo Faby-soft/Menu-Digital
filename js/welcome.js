@@ -1,7 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     const titles = document.querySelectorAll('.welcome-title');
     const subtitles = document.querySelectorAll('.welcome-subtitle');
-    const flags = document.querySelectorAll('.flag-item');
     
     let currentIndex = 0;
     const intervalTime = 3000;

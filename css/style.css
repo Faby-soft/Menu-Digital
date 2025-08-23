@@ -11,7 +11,7 @@ body {
 .health-warning.is-visible { opacity: 1; }
 .health-warning i.fa-heart { color: var(--color-accent); font-size: 0.9rem; }
 .menu {
-    max-width: 800px; margin: 0 auto; background-color: var(--color-background); border: 1px solid var(--color-border); padding: 2.5rem 3.5rem; box-shadow: 0 5px 15px rgba(0,0,0,0.1); position: relative; z-index: 20;
+    max-width: 800px; margin: 0 auto; background-color: var(--color-background); border: 1px solid var(--color-border); padding: 2.5rem 3.5rem; box-shadow: 0 5px 15px rgba(0,0,0,0.1); position: relative;
 }
 .menu__header { text-align: center; margin-bottom: 2rem; }
 .menu__logo { max-width: 220px; height: auto; display: block; margin: 0 auto 1rem auto; }

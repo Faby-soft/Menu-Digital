@@ -1,31 +1,28 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const API_URL = 'https://menu-trabajo.onrender.com';
     const params = new URLSearchParams(window.location.search);
     const lang = params.get('lang') || 'es';
     const rtlLanguages = ['he', 'ar'];
-
     if (rtlLanguages.includes(lang)) {
         document.documentElement.setAttribute('dir', 'rtl');
     }
-
-    async function fetchMenuData(lang) {
-        try {
-            const response = await fetch(`${API_URL}/api/menu/${lang}`);
-            if (!response.ok) throw new Error('No se pudo cargar el menú');
-            const menuData = await response.json();
-            renderMenu(menuData, lang);
-        } catch (error) {
-            console.error('Error al cargar datos del menú:', error);
-            const container = document.getElementById('menu-container');
-            if (container) {
-                container.innerHTML = `<p style="text-align: center; color: red;">No se pudo cargar el menú. Intente más tarde.</p>`;
-            }
-        }
-    }
-
     fetchMenuData(lang);
 });
 
+async function fetchMenuData(lang) {
+    const filePath = `data/menu_${lang}.json`;
+    try {
+        const response = await fetch(filePath);
+        if (!response.ok) throw new Error(`Archivo de menú no encontrado: ${filePath}`);
+        const menuData = await response.json();
+        renderMenu(menuData, lang);
+    } catch (error) {
+        console.error('Error al cargar los datos del menú:', error);
+        const container = document.getElementById('menu-container');
+        if (container) {
+            container.innerHTML = `<p style="text-align: center; color: red;">No se pudo cargar el menú. Verifique que el archivo ${filePath} exista y no tenga errores.</p>`;
+        }
+    }
+}
 function renderMenu(data, lang) {
     const container = document.getElementById('menu-container');
     const subtitleElement = document.querySelector('.menu__subtitle');
@@ -72,7 +69,6 @@ function renderMenu(data, lang) {
     });
     positionHealthWarning();
 }
-
 function renderMenuItem(item) {
     let preciosHTML = '';
     if (item.precios) {
@@ -90,7 +86,6 @@ function renderMenuItem(item) {
     }
     return itemHTML;
 }
-
 function positionHealthWarning() {
     const menu = document.querySelector('.menu');
     const warning = document.querySelector('.health-warning');
