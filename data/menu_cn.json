@@ -1,0 +1,657 @@
+{
+  "informacionGeneral": {
+    "notasSuperiores": [
+      "如果您的健康需要特殊菜肴，请咨询您的服务员。"
+    ],
+    "notasInferiores": [
+      "面包需要另外点单。",
+      "过量摄入盐分有害健康。",
+      "食用生或未全熟的肉类、海鲜或鸡蛋可能会增加食源性疾病的风险。",
+      "在吧台分享菜肴不收取额外费用。",
+      "如果您认为自己不适合驾驶车辆，请告知接待员。她会为您叫一辆出租车。"
+    ],
+    "avisoPrecios": "* 价格不含国家税"
+  },
+  "categorias": [
+    {
+      "nombre": "开胃菜",
+      "items": [
+        {
+          "nombre": "POTATO SKINS",
+          "descripcion": "(覆盖着奶酪、培根和青葱的烤土豆皮)",
+          "precios": {
+            "base": "1",
+            "final": "2"
+          }
+        },
+        {
+          "nombre": "CHICAGO STYLE SPINACH DIP®",
+          "descripcion": "(芝加哥风味菠菜酱，配白酱和奶酪，佐以玉米片、辣酱和奶油奶酪)",
+          "precios": {
+            "base": "11487*",
+            "final": "13900"
+          }
+        },
+        {
+          "nombre": "KANSAS CHICKEN TENDERS",
+          "descripcion": "(调味鸡柳条，佐以蜂蜜芥末酱)",
+          "precios": {
+            "base": "11487*",
+            "final": "13900"
+          }
+        },
+        {
+          "nombre": "KANSAS ROLLS",
+          "descripcion": "(香脆鸡肉蔬菜卷，用本店特色香料调味，佐以辣酱和奶酪)",
+          "precios": {
+            "base": "11983*",
+            "final": "14500"
+          }
+        },
+        {
+          "nombre": "SMOKED SALMON WITH HOMEMADE DRESSING",
+          "descripcion": "(烟熏三文鱼，配小烤面包和厨师特制酱汁)",
+          "precios": {
+            "base": "18595*",
+            "final": "22500"
+          }
+        }
+      ]
+    },
+    {
+      "nombre": "扁面包®",
+      "items": [
+        {
+          "nombre": "BARBECUE CHICKEN FLATBREAD®",
+          "descripcion": "(烤鸡扁面包，配混合奶酪、山羊奶酪、洋葱和香菜，略带烧烤酱调味)",
+          "precios": {
+            "base": "10991*",
+            "final": "13300"
+          }
+        },
+        {
+          "nombre": "STEAK & MUSHROOMS FLATBREAD®",
+          "descripcion": "(牛排蘑菇扁面包，配里脊肉、蓝纹奶酪、蘑菇和菠菜)",
+          "precios": {
+            "base": "11983*",
+            "final": "14500"
+          }
+        },
+        {
+          "nombre": "SHRIMP GOAT CHEESE & DATES FLATBREAD®",
+          "descripcion": "(烤虾山羊奶酪和枣子扁面包，配烤虾、枣子、甜椒和山羊奶酪)",
+          "precios": {
+            "base": "12892*",
+            "final": "15600"
+          }
+        }
+      ]
+    },
+    {
+      "nombre": "沙拉",
+      "nota": "分享菜肴将收取附加费 (9504*) $11500",
+      "items": [
+        {
+          "nombre": "GRILLED CHICKEN SALAD®",
+          "descripcion": "(新鲜时令生菜、卷心菜、烤鸡片和玉米饼条，配蜂蜜青柠油醋汁和花生酱)",
+          "precios": {
+            "base": "18264*",
+            "final": "22100"
+          },
+          "opciones": [
+            {
+              "nombre": "可选配木火烤虾",
+              "precios": {
+                "base": "19917*",
+                "final": "24100"
+              }
+            }
+          ]
+        },
+        {
+          "nombre": "MEDITERRANEAN SALAD®",
+          "descripcion": "(新鲜时令生菜、菲达奶酪、黑橄榄、烤鸡和玉米饼条，配经典油醋汁)",
+          "precios": {
+            "base": "18677*",
+            "final": "22600"
+          }
+        },
+        {
+          "nombre": "CAESAR SALAD",
+          "descripcion": "(新鲜时令生菜、面包丁和雷贾尼托奶酪，配凯撒酱)",
+          "precios": {
+            "base": "13719*",
+            "final": "16600"
+          },
+          "opciones": [
+            {
+              "nombre": "可选配炸鸡柳或烤鸡片",
+              "precios": {
+                "base": "17851*",
+                "final": "21600"
+              }
+            },
+            {
+              "nombre": "可选配木火烤虾",
+              "precios": {
+                "base": "19917*",
+                "final": "24100"
+              }
+            },
+            {
+              "nombre": "可选配烟熏三文鱼",
+              "precios": {
+                "base": "22396*",
+                "final": "27100"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "汉堡和三明治",
+      "nota": "汉堡为自制，每日新鲜准备。",
+      "items": [
+        {
+          "nombre": "CHEESEBURGER (加培根 (2066*) $2500)",
+          "descripcion": "(自制汉堡配切达奶酪、生菜、番茄、黄瓜和洋葱，佐以炸薯条)",
+          "precios": {
+            "base": "19090*",
+            "final": "23100"
+          }
+        },
+        {
+          "nombre": "CLUB SANDWICH",
+          "descripcion": "(冷三明治，含火腿、奶酪、鸡柳、培根、番茄和生菜，用全麦面包制成，佐以炸薯条)",
+          "precios": {
+            "base": "20826*",
+            "final": "25200"
+          }
+        }
+      ]
+    },
+    {
+      "nombre": "配菜",
+      "nota": "作为主菜需加收 (9504*) $11500。",
+      "items": [
+        {
+          "nombre": "WHITE RICE",
+          "descripcion": "(白米饭)",
+          "precios": {
+            "base": "9504*",
+            "final": "11500"
+          }
+        },
+        {
+          "nombre": "MASHED POTATO",
+          "descripcion": "(土豆泥)",
+          "precios": {
+            "base": "10330*",
+            "final": "12500"
+          }
+        },
+        {
+          "nombre": "FRENCH FRIES",
+          "descripcion": "(炸薯条)",
+          "precios": {
+            "base": "9504*",
+            "final": "11500"
+          }
+        },
+        {
+          "nombre": "QUINOA MEDLEY",
+          "descripcion": "(三色藜麦、杏仁、玉米粒和葡萄干，配酸奶酱)",
+          "precios": {
+            "base": "10330*",
+            "final": "12500"
+          }
+        },
+        {
+          "nombre": "FRESH VEGETABLES",
+          "descripcion": "(烤蔬菜、木火烤西兰花或西葫芦)",
+          "precios": {
+            "base": "9504*",
+            "final": "11500"
+          }
+        },
+        {
+          "nombre": "CREAMED SPINACH",
+          "descripcion": "(奶油菠菜)",
+          "precios": {
+            "base": "10330*",
+            "final": "12500"
+          }
+        },
+        {
+          "nombre": "COLESLAW",
+          "descripcion": "(白菜和红叶卷心菜沙拉，配凉拌卷心菜酱)",
+          "precios": {
+            "base": "9504*",
+            "final": "11500"
+          }
+        },
+        {
+          "nombre": "LOADED BAKED POTATO",
+          "descripcion": "(烤土豆，内填黄油、奶油奶酪、切达奶酪、培根和青葱)",
+          "precios": {
+            "base": "10330*",
+            "final": "12500"
+          }
+        }
+      ]
+    },
+    {
+      "nombre": "肉类和猪肉",
+      "nota": "如需搭配沙拉（传统、混合、凯撒），需加收 (9504*) $11500。",
+      "items": [
+        {
+          "nombre": "KANSAS BARBECUE PORK LOIN",
+          "descripcion": "(两片微熏猪里脊肉排，淋上烧烤酱，佐以炸薯条)",
+          "precios": {
+            "base": "27768*",
+            "final": "33600"
+          }
+        },
+        {
+          "nombre": "NEW YORK STRIP 400克",
+          "descripcion": "(木火烤西冷牛排，佐以烤土豆)",
+          "precios": {
+            "base": "29504*",
+            "final": "35700"
+          }
+        },
+        {
+          "nombre": "HOUSTON'S BARBECUE RIBS 500克",
+          "descripcion": "(慢烤猪肋排，用烧烤酱调味，佐以炸薯条或烤土豆)",
+          "precios": {
+            "base": "29504*",
+            "final": "35700 - 36800"
+          }
+        },
+        {
+          "nombre": "RIB EYE STEAK 400克",
+          "descripcion": "(木火烤肋眼牛排，佐以炸薯条)",
+          "precios": {
+            "base": "31239*",
+            "final": "37800"
+          }
+        },
+        {
+          "nombre": "FILET MIGNON",
+          "descripcion": "(木火烤菲力牛排，佐以烤土豆)",
+          "precios": {
+            "base": "31239*",
+            "final": "37800"
+          }
+        },
+        {
+          "nombre": "HAWAIIAN STEAK 400克",
+          "descripcion": "(用酱油、菠萝和姜腌制的肋眼牛排，木火烤制，佐以土豆泥)",
+          "precios": {
+            "base": "31239*",
+            "final": "37800"
+          }
+        }
+      ]
+    },
+    {
+      "nombre": "鱼类",
+      "items": [
+        {
+          "nombre": "CILANTRO SHRIMP",
+          "descripcion": "(虾串置于米饭上，配香菜油、切碎的甜椒和青葱，佐以奶油菠菜)",
+          "precios": {
+            "base": "26033*",
+            "final": "31500"
+          }
+        },
+        {
+          "nombre": "FRESH GRILLED SALMON 300克",
+          "descripcion": "(木火烤三文鱼柳，佐以炸薯条)",
+          "precios": {
+            "base": "28181*",
+            "final": "34100"
+          }
+        },
+        {
+          "nombre": "CEDAR PLANK SALMON 300克",
+          "descripcion": "(在雪松木板上用泥炉烤制的三文鱼，涂有芥末釉，佐以烤土豆)",
+          "precios": {
+            "base": "29090*",
+            "final": "35200"
+          }
+        }
+      ]
+    },
+    {
+      "nombre": "禽类",
+      "items": [
+        {
+          "nombre": "GRILLED CHICKEN BREAST",
+          "descripcion": "(未经腌制的无骨鸡胸肉，木火烤制，配蒸西兰花)",
+          "precios": {
+            "base": "17355*",
+            "final": "21000"
+          }
+        },
+        {
+          "nombre": "BARBECUE CHICKEN",
+          "descripcion": "(无骨鸡胸肉，木火烤制，配烧烤酱，佐以炸薯条)",
+          "precios": {
+            "base": "18264*",
+            "final": "22100"
+          }
+        },
+        {
+          "nombre": "KANSAS CHICKEN",
+          "descripcion": "(无骨鸡胸肉，木火烤制，配混合奶酪、切碎的番茄和葱花，佐以炸薯条)",
+          "precios": {
+            "base": "19090*",
+            "final": "23100"
+          }
+        },
+        {
+          "nombre": "TENNESSEE CHICKEN AND FRIENDS",
+          "descripcion": "(无骨鸡胸肉，木火烤制，配烧烤酱、烟熏火腿和奶酪，佐以炸薯条)",
+          "precios": {
+            "base": "19090*",
+            "final": "23100"
+          }
+        }
+      ]
+    },
+    {
+      "nombre": "意大利面",
+      "nota": "分享菜肴将收取附加费 (9504*) $11500",
+      "items": [
+        {
+          "nombre": "VEGETARIAN PLATTER",
+          "descripcion": "(木火烤西葫芦、藜麦杂烩、米饭和西兰花)",
+          "precios": {
+            "base": "16528*",
+            "final": "20000"
+          }
+        },
+        {
+          "nombre": "GREEK PASTA",
+          "descripcion": "(意大利通心粉，配番茄酱、波多贝罗蘑菇、大蒜、罗勒、黑橄榄和培根，佐以山羊奶酪和酸豆)",
+          "precios": {
+            "base": "18181*",
+            "final": "22000"
+          }
+        },
+        {
+          "nombre": "ARIZONA PASTA",
+          "descripcion": "(意大利通心粉，配阿尔弗雷多酱、鸡肉、甜椒和亚利桑那香料)",
+          "precios": {
+            "base": "19008*",
+            "final": "23000"
+          }
+        },
+        {
+          "nombre": "SMOKED SALMON PASTA",
+          "descripcion": "(意大利长面，配奶油酱、烟熏三文鱼、白葡萄酒、甜椒和新鲜莳萝)",
+          "precios": {
+            "base": "21735*",
+            "final": "26300"
+          }
+        }
+      ]
+    },
+    {
+      "nombre": "儿童菜单",
+      "nota": "10岁以下儿童菜单",
+      "items": [
+        {
+          "nombre": "KID PASTA",
+          "descripcion": "(螺旋面配奶油酱、玛丽娜拉酱或玫瑰酱)",
+          "precios": {
+            "base": "11322*",
+            "final": "13700"
+          }
+        },
+        {
+          "nombre": "KID CHEESEBURGER",
+          "descripcion": "(自制汉堡配奶酪，佐以炸薯条)",
+          "precios": {
+            "base": "13057*",
+            "final": "15800"
+          }
+        },
+        {
+          "nombre": "KID CHICKEN TENDER",
+          "descripcion": "(炸鸡块，佐以炸薯条)",
+          "precios": {
+            "base": "13057*",
+            "final": "15800"
+          }
+        },
+        {
+          "nombre": "KID BARBECUE RIBS",
+          "descripcion": "(堪萨斯风味猪肋排，佐以炸薯条)",
+          "precios": {
+            "base": "13884*",
+            "final": "16800"
+          }
+        }
+      ]
+    },
+    {
+      "nombre": "甜点",
+      "nota": "加巧克力酱或牛奶焦糖酱 (1652*) $2000",
+      "items": [
+        {
+          "nombre": "CARROT CAKE",
+          "descripcion": "(胡萝卜蛋糕，配椰子、核桃和肉桂，佐以奶油芝士糖霜)",
+          "precios": {
+            "base": "9090*",
+            "final": "11000"
+          }
+        },
+        {
+          "nombre": "KEY LIME PIE",
+          "descripcion": "(美味的青柠派，配鲜奶油)",
+          "precios": {
+            "base": "9090*",
+            "final": "11000"
+          }
+        },
+        {
+          "nombre": "APPLE NUT COBBLER",
+          "descripcion": "(苹果派，上覆核桃、焦糖和香草冰淇淋)",
+          "precios": {
+            "base": "10000*",
+            "final": "12100"
+          }
+        },
+        {
+          "nombre": "FIVE NUT BROWNIE",
+          "descripcion": "(自制布朗尼，含五种坚果和花生，配香草冰淇淋)",
+          "precios": {
+            "base": "10826*",
+            "final": "13100"
+          }
+        },
+        {
+          "nombre": "GOING BANANAS",
+          "descripcion": "(温热的香蕉蛋糕，配榛子奶油糖霜，佐以牛奶焦糖酱和香草冰淇淋)",
+          "precios": {
+            "base": "10826*",
+            "final": "13100"
+          }
+        },
+        {
+          "nombre": "ARGENTINEAN STYLE CHEESECAKE",
+          "descripcion": "(牛奶焦糖芝士蛋糕，配奶油和牛奶焦糖酱)",
+          "precios": {
+            "base": "12148*",
+            "final": "14700"
+          }
+        },
+        {
+          "nombre": "KANSAS CHEESECAKE",
+          "descripcion": "(经典纽约风味芝士蛋糕，配奶油、白巧克力屑和覆盆子酱)",
+          "precios": {
+            "base": "12148*",
+            "final": "14700"
+          }
+        },
+        {
+          "nombre": "HOT FUDGE SUNDAE",
+          "descripcion": "(香草冰淇淋，上覆热巧克力酱、鲜奶油和焦糖山核桃)",
+          "precios": {
+            "base": "12561*",
+            "final": "15200"
+          }
+        }
+      ]
+    },
+    {
+      "nombre": "咖啡饮品",
+      "items": [
+        {
+          "nombre": "IRISH COFFEE",
+          "descripcion": "(爱尔兰威士忌和奶油)",
+          "precios": {
+            "base": "6942*",
+            "final": "8400"
+          }
+        },
+        {
+          "nombre": "JAMAICAN COFFEE",
+          "descripcion": "(朗姆酒和咖啡利口酒)",
+          "precios": {
+            "base": "6942*",
+            "final": "8400"
+          }
+        },
+        {
+          "nombre": "KEOKE COFFEE",
+          "descripcion": "(白兰地、咖啡利口酒和可可奶油利口酒)",
+          "precios": {
+            "base": "6942*",
+            "final": "8400"
+          }
+        }
+      ]
+    },
+    {
+      "nombre": "饮料",
+      "items": [
+        {
+          "nombre": "可口可乐系列汽水",
+          "precios": {
+            "base": "4049*",
+            "final": "4900"
+          }
+        },
+        {
+          "nombre": "VILLAVICENCIO 无气矿泉水",
+          "precios": {
+            "base": "3636*",
+            "final": "4400"
+          }
+        },
+        {
+          "nombre": "VILLAVICENCIO 苏打水",
+          "precios": {
+            "base": "3636*",
+            "final": "4400"
+          }
+        },
+        {
+          "nombre": "风味水",
+          "precios": {
+            "base": "3636*",
+            "final": "4400"
+          }
+        },
+        {
+          "nombre": "圣培露苏打水",
+          "precios": {
+            "base": "11322*",
+            "final": "13700"
+          }
+        },
+        {
+          "nombre": "普娜无气矿泉水",
+          "precios": {
+            "base": "11322*",
+            "final": "13700"
+          }
+        },
+        {
+          "nombre": "冰茶",
+          "precios": {
+            "base": "4049*",
+            "final": "4900"
+          }
+        },
+        {
+          "nombre": "阿诺德·帕尔默",
+          "precios": {
+            "base": "4628*",
+            "final": "5600"
+          }
+        },
+        {
+          "nombre": "柠檬水",
+          "precios": {
+            "base": "5867*",
+            "final": "7100"
+          }
+        },
+        {
+          "nombre": "果汁（橙子 - 葡萄柚）",
+          "precios": {
+            "base": "5454*",
+            "final": "6600"
+          }
+        },
+        {
+          "nombre": "薄荷姜汁柠檬水",
+          "precios": {
+            "base": "6446*",
+            "final": "7800"
+          }
+        },
+        {
+          "nombre": "川宁茶",
+          "precios": {
+            "base": "4049*",
+            "final": "4900"
+          }
+        },
+        {
+          "nombre": "浓缩咖啡 / 玛奇朵",
+          "precios": {
+            "base": "4049*",
+            "final": "4900"
+          }
+        },
+        {
+          "nombre": "卡布奇诺",
+          "precios": {
+            "base": "4545*",
+            "final": "5500"
+          }
+        },
+        {
+          "nombre": "咖啡（胶囊）",
+          "precios": {
+            "base": "4545*",
+            "final": "5500"
+          }
+        },
+        {
+          "nombre": "卡布奇诺（胶囊）",
+          "precios": {
+            "base": "4958*",
+            "final": "6000"
+          }
+        }
+      ]
+    }
+  ]
+}

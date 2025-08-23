@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale-1.0">
+    <title>Admin Login - Kansas</title>
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Lato:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+</head>
+<body>
+
+    <div class="video-background">
+        <iframe 
+            src="https://www.youtube.com/embed/NKoJDyKo1QQ?autoplay=1&mute=1&loop=1&playlist=NKoJDyKo1QQ&controls=0&showinfo=0&autohide=1&modestbranding=1" 
+            frameborder="0" 
+            allow="autoplay; encrypted-media" 
+            allowfullscreen>
+        </iframe>
+    </div>
+    <div class="video-overlay"></div>
+
+    <main class="login-container">
+        <div class="login-box">
+            <div class="login-logo-container">
+                <img src="https://www.kansasgrillandbar.com.ar/gfx/logo_ac_3.png" alt="Kansas Grill Logo" class="login-logo">
+            </div>
+            
+            <h1 class="login-title">Acceso de Administración</h1>
+            
+            <form id="login-form">
+                <div class="input-group">
+                    <i class="fas fa-user"></i>
+                    <input type="text" id="username" placeholder="Usuario" required>
+                </div>
+                <div class="input-group">
+                    <i class="fas fa-lock"></i>
+                    <input type="password" id="password" placeholder="Contraseña" required>
+                    <i class="fas fa-eye" id="togglePassword"></i>
+                </div>
+                <button type="submit" class="login-button">Ingresar</button>
+            </form>
+            <p id="error-message" class="error-message"></p>
+        </div>
+    </main>
+    
+    <script src="js/login.js"></script>
+</body>
+</html>

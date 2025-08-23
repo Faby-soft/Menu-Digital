@@ -1,0 +1,245 @@
+{
+  "informacionGeneral": {
+    "notasSuperiores": [
+      "健康上の理由で特別なお食事が必要な場合は、ウェイターにご相談ください。"
+    ],
+    "notasInferiores": [
+      "パンはご注文いただく必要があります。",
+      "塩分の過剰摂取は健康に害を及ぼす可能性があります。",
+      "生または加熱不十分な肉、魚介類、卵を摂取すると、食中毒のリスクが高まる可能性があります。",
+      "バーでのお料理のシェアに追加料金はかかりません。",
+      "お車を運転できる状態ではないとお考えの場合は、受付係にお知らせください。タクシーをお呼びします。"
+    ],
+    "avisoPrecios": "* 価格には国内税は含まれていません"
+  },
+  "categorias": [
+    {
+      "nombre": "前菜",
+      "items": [
+        {
+          "nombre": "POTATO SKINS",
+          "descripcion": "(チーズ、ベーコン、チャイブをトッピングしたポテトスキン)",
+          "precios": {
+            "base": "1",
+            "final": "2"
+          }
+        },
+        {
+          "nombre": "CHICAGO STYLE SPINACH DIP®",
+          "descripcion": "(ホワイトソースとチーズのほうれん草ディップ、トルティーヤチップス、ホットソース、クリームチーズ添え)",
+          "precios": {
+            "base": "11487*",
+            "final": "13900"
+          }
+        },
+        {
+          "nombre": "KANSAS CHICKEN TENDERS",
+          "descripcion": "(味付けした鶏肉の細切り、ハニーマスタードソース添え)",
+          "precios": {
+            "base": "11487*",
+            "final": "13900"
+          }
+        },
+        {
+          "nombre": "KANSAS ROLLS",
+          "descripcion": "(鶏肉と野菜のクリスピーな春巻き、自家製スパイスで味付け、ホットソースとチーズ添え)",
+          "precios": {
+            "base": "11983*",
+            "final": "14500"
+          }
+        },
+        {
+          "nombre": "SMOKED SALMON WITH HOMEMADE DRESSING",
+          "descripcion": "(スモークサーモン、小さなトーストとシェフのドレッシング添え)",
+          "precios": {
+            "base": "18595*",
+            "final": "22500"
+          }
+        }
+      ]
+    },
+    {
+      "nombre": "フラットブレッド®",
+      "items": [
+        {
+          "nombre": "BARBECUE CHICKEN FLATBREAD®",
+          "descripcion": "(鶏肉、ミックスチーズ、ヤギのチーズ、玉ねぎ、コリアンダーを乗せたフラットブレッド、軽いバーベキューソース風味)",
+          "precios": {
+            "base": "10991*",
+            "final": "13300"
+          }
+        },
+        {
+          "nombre": "STEAK & MUSHROOMS FLATBREAD®",
+          "descripcion": "(牛ヒレ肉、ブルーチーズ、マッシュルーム、ほうれん草を乗せたフラットブレッド)",
+          "precios": {
+            "base": "11983*",
+            "final": "14500"
+          }
+        },
+        {
+          "nombre": "SHRIMP GOAT CHEESE & DATES FLATBREAD®",
+          "descripcion": "(ローストしたエビ、デーツ、パプリカ、ヤギのチーズを乗せたフラットブレッド)",
+          "precios": {
+            "base": "12892*",
+            "final": "15600"
+          }
+        }
+      ]
+    },
+    {
+      "nombre": "サラダ",
+      "nota": "お料理をシェアされる場合は、追加料金 (9504*) $11500 がかかります",
+      "items": [
+        {
+          "nombre": "GRILLED CHICKEN SALAD®",
+          "descripcion": "(新鮮な季節のレタス、キャベツ、グリルチキンスライス、トルティーヤストリップス、ハニーライムヴィネグレットとピーナッツソースで和えました)",
+          "precios": {
+            "base": "18264*",
+            "final": "22100"
+          },
+          "opciones": [
+            {
+              "nombre": "薪で焼いたエビのオプション",
+              "precios": {
+                "base": "19917*",
+                "final": "24100"
+              }
+            }
+          ]
+        },
+        {
+          "nombre": "MEDITERRANEAN SALAD®",
+          "descripcion": "(新鮮な季節のレタス、フェタチーズ、ブラックオリーブ、グリルチキン、トルティーヤストリップス、クラシックヴィネグレットで和えました)",
+          "precios": {
+            "base": "18677*",
+            "final": "22600"
+          }
+        },
+        {
+          "nombre": "CAESAR SALAD",
+          "descripcion": "(新鮮な季節のレタス、クルトン、レッジャーノチーズ、シーザードレッシング)",
+          "precios": {
+            "base": "13719*",
+            "final": "16600"
+          },
+          "opciones": [
+            {
+              "nombre": "パン粉をつけた鶏肉の細切りまたはグリルチキンスライス",
+              "precios": {
+                "base": "17851*",
+                "final": "21600"
+              }
+            },
+            {
+              "nombre": "薪で焼いたエビ",
+              "precios": {
+                "base": "19917*",
+                "final": "24100"
+              }
+            },
+            {
+              "nombre": "スモークサーモン",
+              "precios": {
+                "base": "22396*",
+                "final": "27100"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "ハンバーガーとサンドイッチ",
+      "nota": "ハンバーガーは自家製で、毎日手作りしています。",
+      "items": [
+        {
+          "nombre": "CHEESEBURGER (ベーコン追加 (2066*) $2500)",
+          "descripcion": "(自家製ハンバーガー、チェダーチーズ、レタス、トマト、キュウリ、玉ねぎ、フライドポテト添え)",
+          "precios": {
+            "base": "19090*",
+            "final": "23100"
+          }
+        },
+        {
+          "nombre": "CLUB SANDWICH",
+          "descripcion": "(ハム、チーズ、スライスチキン、ベーコン、トマト、レタスのコールドサンドイッチ、全粒粉パンとフライドポテト添え)",
+          "precios": {
+            "base": "20826*",
+            "final": "25200"
+          }
+        }
+      ]
+    },
+    {
+      "nombre": "付け合わせ",
+      "nota": "メインディッシュとしてご注文の場合、追加料金 (9504*) $11500 がかかります。",
+      "items": [
+        {
+          "nombre": "WHITE RICE",
+          "descripcion": "(白米)",
+          "precios": {
+            "base": "9504*",
+            "final": "11500"
+          }
+        },
+        {
+          "nombre": "MASHED POTATO",
+          "descripcion": "(マッシュポテト)",
+          "precios": {
+            "base": "10330*",
+            "final": "12500"
+          }
+        },
+        {
+          "nombre": "FRENCH FRIES",
+          "descripcion": "(フライドポテト)",
+          "precios": {
+            "base": "9504*",
+            "final": "11500"
+          }
+        },
+        {
+          "nombre": "QUINOA MEDLEY",
+          "descripcion": "(三色のキヌア、アーモンド、コーン、レーズン、ヨーグルトベースのドレッシング)",
+          "precios": {
+            "base": "10330*",
+            "final": "12500"
+          }
+        },
+        {
+          "nombre": "FRESH VEGETABLES",
+          "descripcion": "(ロースト野菜、薪で焼いたブロッコリーまたはズッキーニ)",
+          "precios": {
+            "base": "9504*",
+            "final": "11500"
+          }
+        },
+        {
+          "nombre": "CREAMED SPINACH",
+          "descripcion": "(ほうれん草のクリーム煮)",
+          "precios": {
+            "base": "10330*",
+            "final": "12500"
+          }
+        },
+        {
+          "nombre": "COLESLAW",
+          "descripcion": "(白キャベツと赤キャベツのサラダ、コールスロードレッシング)",
+          "precios": {
+            "base": "9504*",
+            "final": "11500"
+          }
+        },
+        {
+          "nombre": "LOADED BAKED POTATO",
+          "descripcion": "(バター、クリームチーズ、チェダーチーズ、ベーコン、チャイブを詰めたベイクドポテト)",
+          "precios": {
+            "base": "10330*",
+            "final": "12500"
+          }
+        }
+      ]
+    }
+  ]
+}

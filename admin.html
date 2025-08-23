@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+        // Este script es el "guardia de seguridad".
+        // Revisa si existe el ticket (authToken) antes de cargar la página.
+        const token = localStorage.getItem('authToken');
+        if (!token) {
+            // Si no hay ticket, te envía de vuelta al login.
+            window.location.href = '/login.html';
+        }
+    </script>
+    <title>Administrador de Menú - Kansas</title>
+    <link rel="stylesheet" href="css/admin.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Cinzel:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@6.6.6/css/flag-icons.min.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="https://media-cdn.tripadvisor.com/media/photo-p/10/a2/96/23/wwwkansasgrillcom.jpg" alt="Kansas Logo" class="header-logo">
+            <h1>Panel de Administración</h1>
+        </div>
+        
+        <div class="user-greeting">
+            <span id="greeting-text"></span>
+            <div class="quick-links">
+                <a href="menu.html?lang=es" target="_blank" title="Ver Menú en Español"><span class="fi fi-ar"></span></a>
+                <a href="menu.html?lang=en" target="_blank" title="Ver Menú en Inglés"><span class="fi fi-us"></span></a>
+                <a href="menu.html?lang=pt" target="_blank" title="Ver Menú en Portugués"><span class="fi fi-br"></span></a>
+            </div>
+            <a href="https://dashboard.render.com/" target="_blank" class="server-status" title="Panel de Render">
+                <i class="fas fa-power-off"></i>
+            </a>
+            <i class="fas fa-sign-out-alt" id="logout-button" title="Cerrar Sesión"></i>
+        </div>
+    </header>
+
+    <main class="container">
+        <nav class="tab-nav">
+            <button class="tab-link active" data-tab="content-editor">
+                <i class="fas fa-file-alt"></i> Editor de Contenido
+            </button>
+            <button class="tab-link" data-tab="price-editor">
+                <i class="fas fa-dollar-sign"></i> Editor de Precios Global
+            </button>
+        </nav>
+
+        <div class="tab-content active" id="content-editor">
+            <div class="selector-container">
+                <label for="language-select">Seleccionar Menú a Editar:</label>
+                <select id="language-select">
+                    <option value="es">Español (Argentina)</option>
+                    <option value="en">Inglés (EE.UU.)</option>
+                    <option value="pt">Portugués (Brasil)</option>
+                    <option value="it">Italiano</option>
+                    <option value="fr">Francés</option>
+                    <option value="de">Alemán</option>
+                    <option value="cn">Chino</option>
+                    <option value="ru">Ruso</option>
+                    <option value="ja">Japonés</option>
+                    <option value="ko">Coreano</option>
+                    <option value="he">Hebreo</option>
+                    <option value="ar">Árabe</option>
+                </select>
+            </div>
+            <div id="menu-editor-container" class="editor-view"></div>
+            <button id="save-content-button" class="save-button"><i class="fas fa-save"></i> Guardar Cambios de Contenido</button>
+        </div>
+
+        <div class="tab-content" id="price-editor">
+            <p class="description">Los precios que modifiques aquí se aplicarán a <strong>todos los idiomas</strong> al guardar.</p>
+            <div id="price-editor-container" class="editor-view"></div>
+            <button id="save-prices-button" class="save-button"><i class="fas fa-save"></i> Guardar Todos los Precios</button>
+        </div>
+    </main>
+    
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="js/admin.js"></script>
+</body>
+</html>

@@ -1,122 +1,110 @@
+require('dotenv').config();
+const jwt = require('jsonwebtoken');
 const express = require('express');
-const fs = require('fs').promises; // Usamos la versión de promesas de fs
+const mongoose = require('mongoose');
 const path = require('path');
 const cors = require('cors');
 
 const app = express();
-const PORT = 3000;
-const ordersFilePath = path.join(__dirname, 'orders.json');
+const PORT = process.env.PORT || 3000;
 
-// --- Middleware ---
+mongoose.connect(process.env.MONGODB_URI)
+    .then(() => console.log('Conectado a MongoDB Atlas con éxito.'))
+    .catch(err => console.error('Error al conectar a MongoDB:', err));
+
+const PreciosSchema = new mongoose.Schema({ base: String, final: String }, { _id: false });
+const OpcionSchema = new mongoose.Schema({ nombre: String, precios: PreciosSchema }, { _id: false });
+const ItemSchema = new mongoose.Schema({ nombre: String, descripcion: String, precios: PreciosSchema, opciones: [OpcionSchema] }, { _id: false });
+const TipoSchema = new mongoose.Schema({ nombre: String, items: [ItemSchema] }, { _id: false });
+const SubcategoriaSchema = new mongoose.Schema({ nombre: String, nota: String, items: [ItemSchema], tipos: [TipoSchema] }, { _id: false });
+const CategoriaSchema = new mongoose.Schema({ nombre: String, nota: String, items: [ItemSchema], subcategorias: [SubcategoriaSchema] }, { _id: false });
+const MenuSchema = new mongoose.Schema({
+    lang: { type: String, required: true, unique: true },
+    informacionGeneral: mongoose.Schema.Types.Mixed,
+    categorias: [CategoriaSchema]
+});
+const Menu = mongoose.model('Menu', MenuSchema);
+
 app.use(cors());
-app.use(express.json());
-app.use(express.static(__dirname)); // Sirve archivos estáticos como index.html
+app.use(express.static(path.join(__dirname)));
+app.use(express.json({ limit: '10mb' }));
 
-// --- Funciones de Utilidad ---
-// Función para leer las comandas de forma segura
-async function readOrders() {
-    try {
-        const data = await fs.readFile(ordersFilePath, 'utf8');
-        return JSON.parse(data);
-    } catch (error) {
-        // Si el archivo no existe, lo creamos con un array vacío
-        if (error.code === 'ENOENT') {
-            await writeOrders([]);
-            return [];
-        }
-        // Si hay otro error (ej. JSON corrupto), lanzamos la excepción
-        console.error('Error al leer o parsear orders.json:', error);
-        throw new Error('El archivo de comandas podría estar corrupto.');
+app.post('/login', (req, res) => {
+    const { username, password } = req.body;
+    if (username === process.env.ADMIN_USER && password === process.env.ADMIN_PASS) {
+        const token = jwt.sign({ user: username }, process.env.JWT_SECRET, { expiresIn: '8h' });
+        res.status(200).json({ message: 'Login exitoso', token });
+    } else {
+        res.status(401).json({ message: 'Usuario o contraseña incorrectos' });
     }
+});
+
+function verifyToken(req, res, next) {
+    const authHeader = req.headers['authorization'];
+    const token = authHeader && authHeader.split(' ')[1];
+    if (!token) return res.status(403).send({ message: 'No se proveyó un token.' });
+    jwt.verify(token, process.env.JWT_SECRET, (err, decoded) => {
+        if (err) return res.status(401).send({ message: 'No autorizado.' });
+        req.user = decoded;
+        next();
+    });
 }
 
-// Función para escribir las comandas de forma segura
-async function writeOrders(orders) {
-    await fs.writeFile(ordersFilePath, JSON.stringify(orders, null, 2), 'utf8');
-}
+app.get('/ping', (req, res) => res.status(200).send({ status: 'online' }));
 
-// --- Endpoints de la API ---
-
-// GET /api/orders: Obtener todas las comandas
-app.get('/api/orders', async (req, res) => {
+app.get('/api/menu/:lang', async (req, res) => {
     try {
-        const orders = await readOrders();
-        res.json(orders);
+        const menu = await Menu.findOne({ lang: req.params.lang });
+        if (!menu) return res.status(404).send({ message: 'Menú no encontrado.' });
+        res.json(menu);
     } catch (error) {
-        res.status(500).send(error.message);
+        res.status(500).send({ message: 'Error al obtener el menú.' });
     }
 });
 
-// POST /api/orders: Crear una nueva comanda
-app.post('/api/orders', async (req, res) => {
+app.post('/api/menu/:lang', verifyToken, async (req, res) => {
     try {
-        const newOrderData = req.body;
-        const orders = await readOrders();
-        
-        // Generamos el ID en el backend para asegurar que sea único y secuencial
-        const newId = orders.length > 0 ? Math.max(...orders.map(o => o.id)) + 1 : 1;
-        
-        const newOrder = {
-            ...newOrderData,
-            id: newId, // Asignamos el ID generado
-            startTime: Date.now(), // Asignamos el tiempo de inicio en el servidor
-            status: 'in-progress' // Estado inicial
-        };
-
-        orders.push(newOrder);
-        await writeOrders(orders);
-        
-        res.status(201).json(newOrder); // Devolvemos la comanda creada
+        const lang = req.params.lang;
+        const { informacionGeneral, categorias } = req.body;
+        await Menu.findOneAndUpdate({ lang: lang }, { informacionGeneral, categorias });
+        res.status(200).send({ message: 'Menú guardado con éxito.' });
     } catch (error) {
-        res.status(500).send('Error interno del servidor al guardar la comanda.');
+        res.status(500).send({ message: 'Error al guardar el menú.' });
     }
 });
 
-// PUT /api/orders/:id: Actualizar el estado de una comanda
-app.put('/api/orders/:id', async (req, res) => {
+app.post('/api/prices/update', verifyToken, async (req, res) => {
+    const pricesToUpdate = req.body;
     try {
-        const orderId = parseInt(req.params.id, 10);
-        const { status } = req.body;
-
-        if (!status) {
-            return res.status(400).send('El estado es requerido.');
+        const menus = await Menu.find({});
+        for (const menu of menus) {
+            menu.categorias.forEach(category => {
+                const updateItems = (items) => {
+                    if (!items) return;
+                    items.forEach(item => {
+                        if (pricesToUpdate[item.nombre]) {
+                            item.precios = pricesToUpdate[item.nombre];
+                        }
+                    });
+                };
+                updateItems(category.items);
+                if (category.subcategorias) {
+                    category.subcategorias.forEach(sub => {
+                        updateItems(sub.items);
+                        if (sub.tipos) {
+                            sub.tipos.forEach(tipo => updateItems(tipo.items));
+                        }
+                    });
+                }
+            });
+            await menu.save();
         }
-
-        const orders = await readOrders();
-        const orderIndex = orders.findIndex(order => order.id === orderId);
-
-        if (orderIndex === -1) {
-            return res.status(404).send('Comanda no encontrada.');
-        }
-
-        orders[orderIndex].status = status;
-        await writeOrders(orders);
-        
-        res.status(200).json(orders[orderIndex]);
+        res.status(200).send({ message: 'Precios actualizados en todos los idiomas.' });
     } catch (error) {
-        res.status(500).send('Error interno del servidor al actualizar la comanda.');
-    }
-});
-
-// DELETE /api/orders/:id: Eliminar una comanda
-app.delete('/api/orders/:id', async (req, res) => {
-    try {
-        const orderId = parseInt(req.params.id, 10);
-        const orders = await readOrders();
-        
-        const updatedOrders = orders.filter(order => order.id !== orderId);
-
-        if (orders.length === updatedOrders.length) {
-            return res.status(404).send('Comanda no encontrada.');
-        }
-
-        await writeOrders(updatedOrders);
-        res.status(200).send('Comanda eliminada correctamente.');
-    } catch (error) {
-        res.status(500).send('Error interno del servidor al eliminar la comanda.');
+        res.status(500).send({ message: 'Error al actualizar los precios.' });
     }
 });
 
 app.listen(PORT, () => {
-    console.log(`Servidor de comandas escuchando en http://localhost:${PORT}`);
+    console.log(`Servidor iniciado en http://localhost:${PORT}`);
 });

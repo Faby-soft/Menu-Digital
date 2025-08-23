@@ -3,94 +3,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Menú Digital - Comandas</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>Bienvenido a Kansas Grill</title>
+    <link rel="stylesheet" href="css/welcome.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Lato:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@6.6.6/css/flag-icons.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
 </head>
 <body>
-    <div id="start-screen">
-        <div>
-            <h2>Bienvenido</h2>
-            <div id="pre-login-content">
-                <p>Selecciona tu rol:</p>
-                <button id="comandar-btn" class="pre-login-btn">Comandar</button>
-                <a href="monitor_cocina.html" id="monitor-btn" class="pre-login-btn">Monitor Comandas</a>
+    <div class="video-background">
+        <iframe 
+            src="https://www.youtube.com/embed/NKoJDyKo1QQ?autoplay=1&mute=1&loop=1&playlist=NKoJDyKo1QQ&controls=0&showinfo=0&autohide=1&modestbranding=1" 
+            frameborder="0" 
+            allow="autoplay; encrypted-media" 
+            allowfullscreen>
+        </iframe>
+    </div>
+    <div class="video-overlay"></div>
+    <main class="welcome-container">
+        <div class="welcome-header">
+            <div class="welcome-logo-container">
+                <img src="https://www.kansasgrillandbar.com.ar/gfx/logo_ac_3.png" alt="Kansas Grill Logo" class="welcome-logo">
             </div>
-            <div id="order-form-content" class="hidden">
-                <div class="input-group">
-                    <label>Selecciona tu nombre:</label>
-                    <div id="waiter-buttons" class="waiter-buttons-container">
-                        <button class="waiter-button">Fabian</button>
-                        <button class="waiter-button">Mario</button>
-                        <button class="waiter-button">Carlos</button>
-                        <button class="waiter-button">Antonio</button>
-                        <button class="waiter-button">Gustavo</button>
-                    </div>
-                </div>
-                <div class="input-group">
-                    <label for="table-number">Número de Mesa:</label>
-                    <input type="number" id="table-number" min="1" required>
-                </div>
-                <div class="input-group">
-                    <label for="comensal-count">Cantidad de Comensales:</label>
-                    <input type="number" id="comensal-count" min="1" required>
-                </div>
-                <button id="start-button">Comenzar Pedido</button>
+            <div class="dynamic-title-container">
+                <span class="welcome-title active" data-lang="es">Bienvenido</span>
+                <span class="welcome-title" data-lang="en">Welcome</span>
+                <span class="welcome-title" data-lang="pt">Bem-vindo</span>
+                <span class="welcome-title" data-lang="it">Benvenuti</span>
+                <span class="welcome-title" data-lang="fr">Bienvenue</span>
+                <span class="welcome-title" data-lang="de">Willkommen</span>
+                <span class="welcome-title" data-lang="ja">ようこそ</span>
+                <span class="welcome-title" data-lang="ko">환영합니다</span>
+                <span class="welcome-title" data-lang="he">ברוכים הבאים</span>
+                <span class="welcome-title" data-lang="ar">أهلاً وسهلاً</span>
+                <span class="welcome-title" data-lang="ru">Добро пожаловать</span>
+                <span class="welcome-title" data-lang="cn">欢迎</span>
             </div>
         </div>
-    </div>
-
-    <div id="app-container" class="hidden">
-        <header>
-            <h1 id="page-title">Menú del Restaurante</h1>
-        </header>
-        <div id="menu-view">
-            <div id="category-tabs">
-                <button class="tab active" data-category="entradas">ENTRADAS</button>
-                <button class="tab" data-category="principales">PRINCIPALES</button>
-                <button class="tab" data-category="postres">POSTRES</button>
+        <div class="selection-box">
+            <div class="dynamic-subtitle-container">
+                <span class="welcome-subtitle active">Seleccione su idioma</span>
+                <span class="welcome-subtitle">Select your language</span>
+                <span class="welcome-subtitle">Selecione seu idioma</span>
+                <span class="welcome-subtitle">Seleziona la tua lingua</span>
+                <span class="welcome-subtitle">Sélectionnez votre langue</span>
+                <span class="welcome-subtitle">Wählen Sie Ihre Sprache</span>
+                <span class="welcome-subtitle">言語を選択してください</span>
+                <span class="welcome-subtitle">언어를 선택하세요</span>
+                <span class="welcome-subtitle">בחר את שפתך</span>
+                <span class="welcome-subtitle">اختر لغتك</span>
+                <span class="welcome-subtitle">Выберите ваш язык</span>
+                <span class="welcome-subtitle">请选择您的语言</span>
             </div>
-            <main id="menu-container"></main>
-            <aside id="cart-container">
-                <h2>Tu Pedido</h2>
-                <div class="comensal-controls">
-                    <label for="comensal-selector">Pedido para:</label>
-                    <select id="comensal-selector"></select>
-                </div>
-                <ul id="cart-list"></ul>
-                <div class="cart-total">
-                    <h3>Total: $<span id="total-price">0.00</span></h3>
-                </div>
-                <button id="checkout-button">Confirmar Pedido</button>
-            </aside>
+            <nav class="flags-container">
+                <a href="menu.html?lang=es" class="flag-item" data-lang="es" title="Argentina"><span class="fi fi-ar"></span></a>
+                <a href="menu.html?lang=en" class="flag-item" data-lang="en" title="United States"><span class="fi fi-us"></span></a>
+                <a href="menu.html?lang=pt" class="flag-item" data-lang="pt" title="Brazil"><span class="fi fi-br"></span></a>
+                <a href="menu.html?lang=it" class="flag-item" data-lang="it" title="Italia"><span class="fi fi-it"></span></a>
+                <a href="menu.html?lang=fr" class="flag-item" data-lang="fr" title="France"><span class="fi fi-fr"></span></a>
+                <a href="menu.html?lang=de" class="flag-item" data-lang="de" title="Germany"><span class="fi fi-de"></span></a>
+                <a href="menu.html?lang=ja" class="flag-item" data-lang="ja" title="Japan"><span class="fi fi-jp"></span></a>
+                <a href="menu.html?lang=ko" class="flag-item" data-lang="ko" title="South Korea"><span class="fi fi-kr"></span></a>
+                <a href="menu.html?lang=he" class="flag-item" data-lang="he" title="Israel"><span class="fi fi-il"></span></a>
+                <a href="menu.html?lang=ar" class="flag-item" data-lang="ar" title="Saudi Arabia"><span class="fi fi-sa"></span></a>
+                <a href="menu.html?lang=ru" class="flag-item" data-lang="ru" title="Russia"><span class="fi fi-ru"></span></a>
+                <a href="menu.html?lang=cn" class="flag-item" data-lang="cn" title="China"><span class="fi fi-cn"></span></a>
+            </nav>
+            <div class="locations-container">
+                <span class="location-item"><i class="fa-solid fa-location-dot"></i> Palermo</span>
+                <span class="location-item"><i class="fa-solid fa-location-dot"></i> San Isidro</span>
+                <span class="location-item"><i class="fa-solid fa-location-dot"></i> Pilar</span>
+                <span class="location-item"><i class="fa-solid fa-location-dot"></i> Al Río</span>
+                <span class="location-item"><i class="fa-solid fa-location-dot"></i> Parque Leloir</span>
+                <span class="location-item"><i class="fa-solid fa-location-dot"></i> Milberg</span>
+                <span class="location-item"><i class="fa-solid fa-location-dot"></i> Lomitas</span>
+            </div>
         </div>
-    </div>
-
-    <div id="confirmation-toast"></div>
-
-    <div id="cooking-point-modal" class="hidden">
-        <div class="modal-content">
-            <h4>Selecciona el Punto de Cocción</h4>
-            <div id="cooking-point-options"></div>
-        </div>
-    </div>
-    
-    <div id="notes-modal" class="hidden">
-        <div class="notes-content">
-            <span class="close-btn">&times;</span>
-            <p>Añadir nota al pedido:</p>
-            <textarea id="item-notes-input" placeholder="Ej: Sin sal, muy picante..."></textarea>
-            <button id="add-notes-btn">Añadir Nota</button>
-        </div>
-    </div>
-
-    <footer>
-        <p>&copy; 2025 Restaurante. Todos los derechos reservados.</p>
-    </footer>
-
-    <script src="js/menu.js"></script>
-    <script src="js/menu_app.js"></script>
+    </main>
+    <a href="login.html" class="admin-link" title="Panel de Administración"><i class="fas fa-lock"></i></a>
+    <script src="js/welcome.js" defer></script>
 </body>
 </html>

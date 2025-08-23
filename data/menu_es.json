@@ -1,0 +1,657 @@
+{
+  "informacionGeneral": {
+    "notasSuperiores": [
+      "Si su salud requiere de un plato especial, consulte con su camarero."
+    ],
+    "notasInferiores": [
+      "El pan debe solicitarse.",
+      "El consumo excesivo de sal es perjudicial para la salud.",
+      "Consumir carne, mariscos o huevos crudos, o parcialmente cocidos, puede aumentar el riesgo de contraer enfermedades alimenticias.",
+      "En la barra no se cobra plato compartido.",
+      "Si usted considera que no está en condiciones de conducir su vehículo, comuníqueselo a la recepcionista. Ella solicitará un remis."
+    ],
+    "avisoPrecios": "* Precios sin impuestos nacionales"
+  },
+  "categorias": [
+    {
+      "nombre": "ENTRADAS",
+      "items": [
+        {
+          "nombre": "POTATO SKINS",
+          "descripcion": "(Cáscaras de papa cubiertas con queso, panceta y cebollines)",
+          "precios": {
+            "base": "1",
+            "final": "2"
+          }
+        },
+        {
+          "nombre": "CHICAGO STYLE SPINACH DIP®",
+          "descripcion": "(Dip de espinaca con salsa blanca y queso, acompañado con tortilla chips, salsa picante y queso crema)",
+          "precios": {
+            "base": "11487*",
+            "final": "13900"
+          }
+        },
+        {
+          "nombre": "KANSAS CHICKEN TENDERS",
+          "descripcion": "(Lonchas de pollo aderezados acompañados con salsa Honey Mustard)",
+          "precios": {
+            "base": "11487*",
+            "final": "13900"
+          }
+        },
+        {
+          "nombre": "KANSAS ROLLS",
+          "descripcion": "(Arrolladitos crocantes de pollo y verduras, condimentados con especias de la casa, servidos con salsa picante y queso)",
+          "precios": {
+            "base": "11983*",
+            "final": "14500"
+          }
+        },
+        {
+          "nombre": "SMOKED SALMON WITH HOMEMADE DRESSING",
+          "descripcion": "(Salmón ahumado, acompañado con tostaditas y aderezo del chef)",
+          "precios": {
+            "base": "18595*",
+            "final": "22500"
+          }
+        }
+      ]
+    },
+    {
+      "nombre": "FLATBREADS®",
+      "items": [
+        {
+          "nombre": "BARBECUE CHICKEN FLATBREAD®",
+          "descripcion": "(Flatbread servido con pollo, quesos mixtos, queso de cabra, cebollas y cilantro, aderezado ligeramente con barbacoa)",
+          "precios": {
+            "base": "10991*",
+            "final": "13300"
+          }
+        },
+        {
+          "nombre": "STEAK & MUSHROOMS FLATBREAD®",
+          "descripcion": "(Flatbread servido con lomo, queso azul, champignones y espinacas)",
+          "precios": {
+            "base": "11983*",
+            "final": "14500"
+          }
+        },
+        {
+          "nombre": "SHRIMP GOAT CHEESE & DATES FLATBREAD®",
+          "descripcion": "(Flatbread servido con langostinos asados, dátiles, morrones y queso de cabra)",
+          "precios": {
+            "base": "12892*",
+            "final": "15600"
+          }
+        }
+      ]
+    },
+    {
+      "nombre": "ENSALADAS",
+      "nota": "Los platos que se compartan tendran un recargo de (9504*) $11500",
+      "items": [
+        {
+          "nombre": "GRILLED CHICKEN SALAD®",
+          "descripcion": "(Lechugas frescas de estación, repollo, fetas de pollo grilladas y tiritas de tortilla, aderezadas con Honey Lime Vinaigrette y Peanut Sauce)",
+          "precios": {
+            "base": "18264*",
+            "final": "22100"
+          },
+          "opciones": [
+            {
+              "nombre": "Opción salad con langostinos a la leña",
+              "precios": {
+                "base": "19917*",
+                "final": "24100"
+              }
+            }
+          ]
+        },
+        {
+          "nombre": "MEDITERRANEAN SALAD®",
+          "descripcion": "(Lechugas fresca de estación, queso feta, aceitunas negras, pollo grillado y tiritas de tortilla, aderezadas con Classic Vinaigrette)",
+          "precios": {
+            "base": "18677*",
+            "final": "22600"
+          }
+        },
+        {
+          "nombre": "CAESAR SALAD",
+          "descripcion": "(Lechuga fresca de estación, croutones y queso reggianito con aderezo Caesar)",
+          "precios": {
+            "base": "13719*",
+            "final": "16600"
+          },
+          "opciones": [
+            {
+              "nombre": "con lonchas de pollo rebozados o con fetas de pollo grilladas",
+              "precios": {
+                "base": "17851*",
+                "final": "21600"
+              }
+            },
+            {
+              "nombre": "con langostinos a la leña",
+              "precios": {
+                "base": "19917*",
+                "final": "24100"
+              }
+            },
+            {
+              "nombre": "con smoked salmon",
+              "precios": {
+                "base": "22396*",
+                "final": "27100"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "HAMBURGUESAS Y SANDWICHES",
+      "nota": "Las hamburguesas son caseras y se preparan diariamente.",
+      "items": [
+        {
+          "nombre": "CHEESEBURGER (con panceta adicionar (2066*) $2500)",
+          "descripcion": "(Hamburguesa casera con queso cheddar, lechuga, tomate, pepino y cebolla acompañada con papas fritas)",
+          "precios": {
+            "base": "19090*",
+            "final": "23100"
+          }
+        },
+        {
+          "nombre": "CLUB SANDWICH",
+          "descripcion": "(Sandwich frío de jamón, queso y pollo fileteado con panceta, tomate y lechuga, servido en pan de trigo con papas fritas)",
+          "precios": {
+            "base": "20826*",
+            "final": "25200"
+          }
+        }
+      ]
+    },
+    {
+      "nombre": "ACOMPAÑAMIENTOS",
+      "nota": "Como plato único adicionar (9504*) $11500.",
+      "items": [
+        {
+          "nombre": "WHITE RICE",
+          "descripcion": "(Arroz blanco)",
+          "precios": {
+            "base": "9504*",
+            "final": "11500"
+          }
+        },
+        {
+          "nombre": "MASHED POTATO",
+          "descripcion": "(Puré de papas)",
+          "precios": {
+            "base": "10330*",
+            "final": "12500"
+          }
+        },
+        {
+          "nombre": "FRENCH FRIES",
+          "descripcion": "(Papas fritas)",
+          "precios": {
+            "base": "9504*",
+            "final": "11500"
+          }
+        },
+        {
+          "nombre": "QUINOA MEDLEY",
+          "descripcion": "(Quinoa tricolor, almendras, granos de maíz y pasas de uva con aderezo a base de yogur)",
+          "precios": {
+            "base": "10330*",
+            "final": "12500"
+          }
+        },
+        {
+          "nombre": "FRESH VEGETABLES",
+          "descripcion": "(Vegetales rostizados, brócolis ó zucchinis asados a la leña)",
+          "precios": {
+            "base": "9504*",
+            "final": "11500"
+          }
+        },
+        {
+          "nombre": "CREAM SPINACH",
+          "descripcion": "(Espinacas a la crema)",
+          "precios": {
+            "base": "10330*",
+            "final": "12500"
+          }
+        },
+        {
+          "nombre": "COLE SLAW",
+          "descripcion": "(Ensalada de repollo blanco y colorado con aderezo cole slaw)",
+          "precios": {
+            "base": "9504*",
+            "final": "11500"
+          }
+        },
+        {
+          "nombre": "LOADED BAKED POTATO",
+          "descripcion": "(Papa rellena con manteca, queso crema, queso cheddar, panceta y cebollines)",
+          "precios": {
+            "base": "10330*",
+            "final": "12500"
+          }
+        }
+      ]
+    },
+    {
+      "nombre": "CARNES Y CERDOS",
+      "nota": "Si usted desea acompañar estos platos con una ensalada (Traditional, Mixed, Caesar) el valor de la misma será de (9504*) $11500.",
+      "items": [
+        {
+          "nombre": "KANSAS BARBECUE PORK LOIN",
+          "descripcion": "(Dos medallones de bondiola de cerdo, ligeramente ahumados, bañados con salsa barbacoa, acompañados con papas fritas)",
+          "precios": {
+            "base": "27768*",
+            "final": "33600"
+          }
+        },
+        {
+          "nombre": "NEW YORK STRIP 400gr.",
+          "descripcion": "(Bife de chorizo grillado a la leña, acompañado con papa rellena)",
+          "precios": {
+            "base": "29504*",
+            "final": "35700"
+          }
+        },
+        {
+          "nombre": "HOUSTON'S BARBECUE RIBS 500gr.",
+          "descripcion": "(Costillar de cerdo asado a fuego lento, aderezado con salsa barbacoa, acompañado con papas fritas o Papa Rellena)",
+          "precios": {
+            "base": "29504*",
+            "final": "35700 - 36800"
+          }
+        },
+        {
+          "nombre": "RIB EYE STEAK 400gr.",
+          "descripcion": "(Ojo de bife grillado a la leña, acompañado con papas fritas)",
+          "precios": {
+            "base": "31239*",
+            "final": "37800"
+          }
+        },
+        {
+          "nombre": "FILET MIGNON",
+          "descripcion": "(Bife de lomo grillado a la leña acomapado con papa rellena)",
+          "precios": {
+            "base": "31239*",
+            "final": "37800"
+          }
+        },
+        {
+          "nombre": "HAWAIIAN STEAK 400gr.",
+          "descripcion": "(Ojo de bife marinado en salsa de soja, ananá y jengibre grillado a la leña acompañado con puré de papas)",
+          "precios": {
+            "base": "31239*",
+            "final": "37800"
+          }
+        }
+      ]
+    },
+    {
+      "nombre": "PESCADOS",
+      "items": [
+        {
+          "nombre": "CILANTRO SHRIMP",
+          "descripcion": "(Brochette de langostinos servido sobre colchón de arroz con aceite de cilantro, morrones picados y cebollines, acompañado con espinaca a la crema)",
+          "precios": {
+            "base": "26033*",
+            "final": "31500"
+          }
+        },
+        {
+          "nombre": "FRESH GRILLED SALMON 300gr.",
+          "descripcion": "(Filet de salmón grillado a la leña acompañado con papas fritas)",
+          "precios": {
+            "base": "28181*",
+            "final": "34100"
+          }
+        },
+        {
+          "nombre": "CEDAR PLANK SALMON 300gr.",
+          "descripcion": "(Salmón al horno de barro, cocido sobre una tabla de cedro, pintado con glacé de mostaza con papa rellena)",
+          "precios": {
+            "base": "29090*",
+            "final": "35200"
+          }
+        }
+      ]
+    },
+    {
+      "nombre": "AVES",
+      "items": [
+        {
+          "nombre": "GRILLED CHICKEN BREAST",
+          "descripcion": "(Pechuga de pollo deshuesada sin marinar grillada a la leña con brócoli al vapor)",
+          "precios": {
+            "base": "17355*",
+            "final": "21000"
+          }
+        },
+        {
+          "nombre": "BARBECUE CHICKEN",
+          "descripcion": "(Pechuga de pollo deshuesada grillada a la leña con salsa barbacoa, acompañada con papas fritas)",
+          "precios": {
+            "base": "18264*",
+            "final": "22100"
+          }
+        },
+        {
+          "nombre": "KANSAS CHICKEN",
+          "descripcion": "(Pechuga de pollo deshuesada grillada a la leña con queso mixto, tomate picado y cebolla de verdeo, acompañada con papas fritas)",
+          "precios": {
+            "base": "19090*",
+            "final": "23100"
+          }
+        },
+        {
+          "nombre": "TENNESSEE CHICKEN AND FRIENDS",
+          "descripcion": "(Pechuga de pollo deshuesada grillada a la leña con salsa barbacoa, jamón ahumado y queso, acompañada con papas fritas)",
+          "precios": {
+            "base": "19090*",
+            "final": "23100"
+          }
+        }
+      ]
+    },
+    {
+      "nombre": "PASTAS",
+      "nota": "Los platos que se compartan tendran un recargo de (9504*) $11500",
+      "items": [
+        {
+          "nombre": "VEGETARIAN PLATTER",
+          "descripcion": "(Zucchinis asados a la leña, quinoa medley, arroz y brócoli)",
+          "precios": {
+            "base": "16528*",
+            "final": "20000"
+          }
+        },
+        {
+          "nombre": "GREEK PASTA",
+          "descripcion": "(Pasta Penne italiana al dente, en salsa de tomate, hongos portobello, ajo, albahaca, aceitunas negras y panceta, servido con queso de cabra y alcaparras)",
+          "precios": {
+            "base": "18181*",
+            "final": "22000"
+          }
+        },
+        {
+          "nombre": "ARIZONA PASTA",
+          "descripcion": "(Pasta Penne italiana al dente, servida con salsa Alfredo, pollo, morrones y especias de Arizona)",
+          "precios": {
+            "base": "19008*",
+            "final": "23000"
+          }
+        },
+        {
+          "nombre": "SMOKED SALMON PASTA",
+          "descripcion": "(Pasta Lingüini italiana al dente, servida con salsa a base de crema, salmón ahumado, vino blanco, morrones y eneldo fresco)",
+          "precios": {
+            "base": "21735*",
+            "final": "26300"
+          }
+        }
+      ]
+    },
+    {
+      "nombre": "KIDS",
+      "nota": "Menú para niños menores de 10 años",
+      "items": [
+        {
+          "nombre": "KID PASTA",
+          "descripcion": "(Pasta Fusilli con salsa crema, marinara o salsa rosada)",
+          "precios": {
+            "base": "11322*",
+            "final": "13700"
+          }
+        },
+        {
+          "nombre": "KID CHEESEBURGER",
+          "descripcion": "(Hamburguesa casera con queso, servida con papas fritas)",
+          "precios": {
+            "base": "13057*",
+            "final": "15800"
+          }
+        },
+        {
+          "nombre": "KID CHICKEN TENDER",
+          "descripcion": "(Trozos de pollo rebozado, servido con papas fritas)",
+          "precios": {
+            "base": "13057*",
+            "final": "15800"
+          }
+        },
+        {
+          "nombre": "KID BARBECUE RIBS",
+          "descripcion": "(Costilla de cerdo estilo Kansas, servido con papas fritas)",
+          "precios": {
+            "base": "13884*",
+            "final": "16800"
+          }
+        }
+      ]
+    },
+    {
+      "nombre": "DESSERTS",
+      "nota": "con salsa de chocolate o dulce de leche adicionar (1652*) $2000",
+      "items": [
+        {
+          "nombre": "CARROT CAKE",
+          "descripcion": "(torta de coco, nueces y canela con cobertura de crema)",
+          "precios": {
+            "base": "9090*",
+            "final": "11000"
+          }
+        },
+        {
+          "nombre": "KEY LIME PIE",
+          "descripcion": "(deliciosa tarta de lima servida con crema batida)",
+          "precios": {
+            "base": "9090*",
+            "final": "11000"
+          }
+        },
+        {
+          "nombre": "APPLE NUT COBBLER",
+          "descripcion": "(tarta de manzana cubierta con nueces, caramelo y helado de vainilla)",
+          "precios": {
+            "base": "10000*",
+            "final": "12100"
+          }
+        },
+        {
+          "nombre": "FIVE NUT BROWNIE",
+          "descripcion": "(brownie casero con cinco tipos de nueces y maní servido con helado de vainilla)",
+          "precios": {
+            "base": "10826*",
+            "final": "13100"
+          }
+        },
+        {
+          "nombre": "GOING BANANAS",
+          "descripcion": "(torta tibia de bananas con cobertura de crema de avellanas, servido con salsa de dulce de leche y helado de vainilla)",
+          "precios": {
+            "base": "10826*",
+            "final": "13100"
+          }
+        },
+        {
+          "nombre": "ARGENTINEAN STYLE CHEESECAKE",
+          "descripcion": "(chessecake de dulce de leche servido con crema y salsa de dulce de leche)",
+          "precios": {
+            "base": "12148*",
+            "final": "14700"
+          }
+        },
+        {
+          "nombre": "KANSAS CHEESECAKE",
+          "descripcion": "(cheesecake clásico, estilo “new york”, con crema, escamas de chocolate blanco y salsa de frambuesa)",
+          "precios": {
+            "base": "12148*",
+            "final": "14700"
+          }
+        },
+        {
+          "nombre": "HOT FUDGE SUNDAE",
+          "descripcion": "(helado de vainilla bañado con salsa de chocolate, crema y pecans acarameladas)",
+          "precios": {
+            "base": "12561*",
+            "final": "15200"
+          }
+        }
+      ]
+    },
+    {
+      "nombre": "COFFEE DRINKS",
+      "items": [
+        {
+          "nombre": "IRISH COFFEE",
+          "descripcion": "(whisky irlandés y crema)",
+          "precios": {
+            "base": "6942*",
+            "final": "8400"
+          }
+        },
+        {
+          "nombre": "JAMAICAN COFFEE",
+          "descripcion": "(ron y licor de café)",
+          "precios": {
+            "base": "6942*",
+            "final": "8400"
+          }
+        },
+        {
+          "nombre": "KEOKE COFFEE",
+          "descripcion": "(brandy, licor de café y licor crema de cacao)",
+          "precios": {
+            "base": "6942*",
+            "final": "8400"
+          }
+        }
+      ]
+    },
+    {
+      "nombre": "BEBIDAS",
+      "items": [
+        {
+          "nombre": "GASEOSA LÍNEA COCA COLA",
+          "precios": {
+            "base": "4049*",
+            "final": "4900"
+          }
+        },
+        {
+          "nombre": "VILLAVICENCIO SIN GAS",
+          "precios": {
+            "base": "3636*",
+            "final": "4400"
+          }
+        },
+        {
+          "nombre": "VILLAVICENCIO CON GAS",
+          "precios": {
+            "base": "3636*",
+            "final": "4400"
+          }
+        },
+        {
+          "nombre": "AGUAS SABORIZADAS",
+          "precios": {
+            "base": "3636*",
+            "final": "4400"
+          }
+        },
+        {
+          "nombre": "AGUA SANPELLEGRINO (CON GAS)",
+          "precios": {
+            "base": "11322*",
+            "final": "13700"
+          }
+        },
+        {
+          "nombre": "ACQUA PANNA (SIN GAS)",
+          "precios": {
+            "base": "11322*",
+            "final": "13700"
+          }
+        },
+        {
+          "nombre": "ICED TEA",
+          "precios": {
+            "base": "4049*",
+            "final": "4900"
+          }
+        },
+        {
+          "nombre": "ARNOLD PALMER",
+          "precios": {
+            "base": "4628*",
+            "final": "5600"
+          }
+        },
+        {
+          "nombre": "LIMONADA",
+          "precios": {
+            "base": "5867*",
+            "final": "7100"
+          }
+        },
+        {
+          "nombre": "JUGOS (NARANJA - POMELO)",
+          "precios": {
+            "base": "5454*",
+            "final": "6600"
+          }
+        },
+        {
+          "nombre": "LIMONADA CON MENTA Y JENGIBRE",
+          "precios": {
+            "base": "6446*",
+            "final": "7800"
+          }
+        },
+        {
+          "nombre": "TÉ TWININGS",
+          "precios": {
+            "base": "4049*",
+            "final": "4900"
+          }
+        },
+        {
+          "nombre": "CAFE ESPRESSO / CORTADO",
+          "precios": {
+            "base": "4049*",
+            "final": "4900"
+          }
+        },
+        {
+          "nombre": "CAPUCCINO",
+          "precios": {
+            "base": "4545*",
+            "final": "5500"
+          }
+        },
+        {
+          "nombre": "CAFE (CÁPSULAS)",
+          "precios": {
+            "base": "4545*",
+            "final": "5500"
+          }
+        },
+        {
+          "nombre": "CAPUCCINO (CÁPSULAS)",
+          "precios": {
+            "base": "4958*",
+            "final": "6000"
+          }
+        }
+      ]
+    }
+  ]
+}

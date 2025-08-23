@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Lato:wght@300;400;700&display=swap');
+:root {
+    --font-primary: 'Lato', sans-serif; --font-display: 'Cinzel', serif; --color-text: #000000; --color-background: #ffffff; --color-border: #000000; --color-accent: #c00000;
+}
+body {
+    font-family: var(--font-primary); margin: 0; padding: 2rem; background-color: #f0f0f0; color: var(--color-text);
+}
+.health-warning {
+    position: fixed; top: 50%; left: calc(50vw - 400px - 60px); transform: translateY(-50%) rotate(-90deg); transform-origin: center; font-size: 0.75rem; color: var(--color-text); letter-spacing: 0.5px; text-transform: uppercase; white-space: nowrap; display: flex; align-items: center; gap: 0.75rem; z-index: 10; opacity: 0; transition: opacity 0.5s ease;
+}
+.health-warning.is-visible { opacity: 1; }
+.health-warning i.fa-heart { color: var(--color-accent); font-size: 0.9rem; }
+.menu {
+    max-width: 800px; margin: 0 auto; background-color: var(--color-background); border: 1px solid var(--color-border); padding: 2.5rem 3.5rem; box-shadow: 0 5px 15px rgba(0,0,0,0.1); position: relative; z-index: 20;
+}
+.menu__header { text-align: center; margin-bottom: 2rem; }
+.menu__logo { max-width: 220px; height: auto; display: block; margin: 0 auto 1rem auto; }
+.menu__subtitle { text-align: center; font-size: 0.9rem; margin: 1.5rem 0 2rem 0; }
+.menu__footer { text-align: center; font-size: 0.8rem; margin-top: 3rem; border-top: 1px solid #eee; padding-top: 1.5rem; }
+.menu__section { margin-top: 2.5rem; }
+.menu__section-title {
+    font-family: var(--font-display); font-size: 1.75rem; font-weight: 400; text-align: center; margin-top: 3rem; margin-bottom: 2rem; padding: 0 20px; letter-spacing: 1px; color: var(--color-accent); position: relative; display: flex; align-items: center; justify-content: center; white-space: nowrap;
+}
+.menu__section-title::before, .menu__section-title::after {
+    content: ''; flex-grow: 1; height: 5px; background-repeat: no-repeat; background-image: linear-gradient(var(--color-accent), var(--color-accent)), linear-gradient(var(--color-accent), var(--color-accent)), linear-gradient(var(--color-accent), var(--color-accent)); background-size: 60% 1px, 100% 1px, 60% 1px; background-position: center top, center center, center bottom;
+}
+.menu__section-title::before { margin-right: 20px; }
+.menu__section-title::after { margin-left: 20px; }
+.menu__section-notes { text-align: center; font-size: 0.85rem; margin: -1rem 0 2rem 0; font-style: italic; }
+.menu-item {
+    display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 1.25rem; line-height: 1.5; opacity: 0; transform: translateY(20px); transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+.menu-item.is-visible { opacity: 1; transform: translateY(0); }
+.menu-item__details { flex-grow: 1; padding-right: 1.5rem; }
+.menu-item__name { font-weight: bold; font-size: 1rem; margin: 0; }
+.menu-item__description { font-size: 0.85rem; font-weight: 300; margin: 0; padding-top: 2px; }
+.menu-item__price-container { display: flex; align-items: baseline; white-space: nowrap; }
+.price-base { color: var(--color-accent); margin-right: 0.75rem; font-size: 0.9rem; }
+.price-final { font-weight: bold; font-size: 1rem; }
+@media (max-width: 1024px) { .health-warning { display: none; } }
+@media (max-width: 768px) {
+    body { padding: 0.5rem; } .menu { padding: 1.5rem; } .menu__logo { max-width: 180px; } .menu__section-title { font-size: 1.5rem; white-space: normal; padding: 0; } .menu__section-title::before, .menu__section-title::after { display: none; } .menu__section-title { border-bottom: 1px solid var(--color-accent); display: inline-block; width: auto; } .menu-item { flex-direction: column; align-items: flex-start; } .menu-item__price-container { margin-top: 0.5rem; align-self: flex-end; }
+}
+html[dir="rtl"] .menu, html[dir="rtl"] .menu__section-title, html[dir="rtl"] .menu__footer { direction: rtl; }
+html[dir="rtl"] .menu-item__details { padding-right: 0; padding-left: 1.5rem; }
+html[dir="rtl"] .menu-item__description { text-align: right; }
+html[dir="rtl"] .health-warning { left: auto; right: calc(50vw - 400px - 60px); transform: translateY(-50%) rotate(90deg); }
+html[dir="rtl"] .price-base { margin-right: 0; margin-left: 0.75rem; }

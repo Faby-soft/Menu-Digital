@@ -1,0 +1,245 @@
+{
+  "informacionGeneral": {
+    "notasSuperiores": [
+      "건강상의 이유로 특별한 요리가 필요하시면 웨이터에게 문의하십시오."
+    ],
+    "notasInferiores": [
+      "빵은 별도로 주문해야 합니다.",
+      "과도한 소금 섭취는 건강에 해롭습니다.",
+      "날 것이나 덜 익힌 고기, 해산물, 계란을 섭취하면 식중독의 위험이 증가할 수 있습니다.",
+      "바에서는 요리를 나눠 먹어도 추가 요금이 부과되지 않습니다.",
+      "운전할 수 없는 상태라고 판단되시면 접수원에게 알려주십시오. 택시를 불러드릴 것입니다."
+    ],
+    "avisoPrecios": "* 가격에는 국세가 포함되어 있지 않습니다"
+  },
+  "categorias": [
+    {
+      "nombre": "애피타이저",
+      "items": [
+        {
+          "nombre": "POTATO SKINS",
+          "descripcion": "(치즈, 베이컨, 쪽파를 얹은 감자 껍질)",
+          "precios": {
+            "base": "1",
+            "final": "2"
+          }
+        },
+        {
+          "nombre": "CHICAGO STYLE SPINACH DIP®",
+          "descripcion": "(화이트 소스와 치즈를 곁들인 시금치 딥, 토르티야 칩, 핫 소스, 크림치즈와 함께 제공)",
+          "precios": {
+            "base": "11487*",
+            "final": "13900"
+          }
+        },
+        {
+          "nombre": "KANSAS CHICKEN TENDERS",
+          "descripcion": "(양념 닭 안심 스트립, 허니 머스터드 소스와 함께 제공)",
+          "precios": {
+            "base": "11487*",
+            "final": "13900"
+          }
+        },
+        {
+          "nombre": "KANSAS ROLLS",
+          "descripcion": "(닭고기와 야채로 만든 바삭한 롤, 하우스 스파이스로 양념, 핫 소스와 치즈와 함께 제공)",
+          "precios": {
+            "base": "11983*",
+            "final": "14500"
+          }
+        },
+        {
+          "nombre": "SMOKED SALMON WITH HOMEMADE DRESSING",
+          "descripcion": "(훈제 연어, 작은 토스트와 셰프 드레싱과 함께 제공)",
+          "precios": {
+            "base": "18595*",
+            "final": "22500"
+          }
+        }
+      ]
+    },
+    {
+      "nombre": "플랫브레드®",
+      "items": [
+        {
+          "nombre": "BARBECUE CHICKEN FLATBREAD®",
+          "descripcion": "(닭고기, 혼합 치즈, 염소 치즈, 양파, 고수를 얹은 플랫브레드, 바비큐 소스로 가볍게 양념)",
+          "precios": {
+            "base": "10991*",
+            "final": "13300"
+          }
+        },
+        {
+          "nombre": "STEAK & MUSHROOMS FLATBREAD®",
+          "descripcion": "(등심, 블루 치즈, 버섯, 시금치를 얹은 플랫브레드)",
+          "precios": {
+            "base": "11983*",
+            "final": "14500"
+          }
+        },
+        {
+          "nombre": "SHRIMP GOAT CHEESE & DATES FLATBREAD®",
+          "descripcion": "(구운 새우, 대추야자, 피망, 염소 치즈를 얹은 플랫브레드)",
+          "precios": {
+            "base": "12892*",
+            "final": "15600"
+          }
+        }
+      ]
+    },
+    {
+      "nombre": "샐러드",
+      "nota": "요리를 나눠 드실 경우 추가 요금 (9504*) ₩11500이 부과됩니다",
+      "items": [
+        {
+          "nombre": "GRILLED CHICKEN SALAD®",
+          "descripcion": "(신선한 제철 양상추, 양배추, 구운 닭고기 슬라이스, 토르티야 스트립, 허니 라임 비네그레트와 땅콩 소스로 맛을 냄)",
+          "precios": {
+            "base": "18264*",
+            "final": "22100"
+          },
+          "opciones": [
+            {
+              "nombre": "장작불에 구운 새우 추가 옵션",
+              "precios": {
+                "base": "19917*",
+                "final": "24100"
+              }
+            }
+          ]
+        },
+        {
+          "nombre": "MEDITERRANEAN SALAD®",
+          "descripcion": "(신선한 제철 양상추, 페타 치즈, 블랙 올리브, 구운 닭고기, 토르티야 스트립, 클래식 비네그레트로 맛을 냄)",
+          "precios": {
+            "base": "18677*",
+            "final": "22600"
+          }
+        },
+        {
+          "nombre": "CAESAR SALAD",
+          "descripcion": "(신선한 제철 양상추, 크루통, 레지아니토 치즈, 시저 드레싱)",
+          "precios": {
+            "base": "13719*",
+            "final": "16600"
+          },
+          "opciones": [
+            {
+              "nombre": "빵가루 입힌 닭 안심 또는 구운 닭고기 슬라이스",
+              "precios": {
+                "base": "17851*",
+                "final": "21600"
+              }
+            },
+            {
+              "nombre": "장작불에 구운 새우",
+              "precios": {
+                "base": "19917*",
+                "final": "24100"
+              }
+            },
+            {
+              "nombre": "훈제 연어",
+              "precios": {
+                "base": "22396*",
+                "final": "27100"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "햄버거와 샌드위치",
+      "nota": "햄버거는 수제이며 매일 신선하게 준비됩니다.",
+      "items": [
+        {
+          "nombre": "치즈버거 (베이컨 추가 (2066*) ₩2500)",
+          "descripcion": "(체다 치즈, 양상추, 토마토, 오이, 양파를 곁들인 수제 버거, 감자튀김과 함께 제공)",
+          "precios": {
+            "base": "19090*",
+            "final": "23100"
+          }
+        },
+        {
+          "nombre": "클럽 샌드위치",
+          "descripcion": "(햄, 치즈, 얇게 썬 닭고기, 베이컨, 토마토, 양상추를 곁들인 차가운 샌드위치, 통밀빵과 감자튀김과 함께 제공)",
+          "precios": {
+            "base": "20826*",
+            "final": "25200"
+          }
+        }
+      ]
+    },
+    {
+      "nombre": "곁들임 요리",
+      "nota": "메인 요리로 주문 시 추가 요금 (9504*) ₩11500이 부과됩니다.",
+      "items": [
+        {
+          "nombre": "WHITE RICE",
+          "descripcion": "(흰 쌀밥)",
+          "precios": {
+            "base": "9504*",
+            "final": "11500"
+          }
+        },
+        {
+          "nombre": "MASHED POTATO",
+          "descripcion": "(매쉬드 포테이토)",
+          "precios": {
+            "base": "10330*",
+            "final": "12500"
+          }
+        },
+        {
+          "nombre": "FRENCH FRIES",
+          "descripcion": "(감자튀김)",
+          "precios": {
+            "base": "9504*",
+            "final": "11500"
+          }
+        },
+        {
+          "nombre": "QUINOA MEDLEY",
+          "descripcion": "(세 가지 색의 퀴노아, 아몬드, 옥수수 알갱이, 건포도를 요거트 기반 드레싱으로 버무림)",
+          "precios": {
+            "base": "10330*",
+            "final": "12500"
+          }
+        },
+        {
+          "nombre": "FRESH VEGETABLES",
+          "descripcion": "(구운 야채, 장작불에 구운 브로콜리 또는 주키니)",
+          "precios": {
+            "base": "9504*",
+            "final": "11500"
+          }
+        },
+        {
+          "nombre": "CREAMED SPINACH",
+          "descripcion": "(크림 시금치)",
+          "precios": {
+            "base": "10330*",
+            "final": "12500"
+          }
+        },
+        {
+          "nombre": "COLESLAW",
+          "descripcion": "(흰 양배추와 적양배추 샐러드, 코울슬로 드레싱)",
+          "precios": {
+            "base": "9504*",
+            "final": "11500"
+          }
+        },
+        {
+          "nombre": "LOADED BAKED POTATO",
+          "descripcion": "(버터, 크림치즈, 체다 치즈, 베이컨, 쪽파를 채운 통감자 구이)",
+          "precios": {
+            "base": "10330*",
+            "final": "12500"
+          }
+        }
+      ]
+    }
+  ]
+}

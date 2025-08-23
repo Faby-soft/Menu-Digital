@@ -1,0 +1,657 @@
+{
+  "informacionGeneral": {
+    "notasSuperiores": [
+      "Wenn Ihre Gesundheit ein spezielles Gericht erfordert, konsultieren Sie bitte Ihren Kellner."
+    ],
+    "notasInferiores": [
+      "Brot muss bestellt werden.",
+      "Übermäßiger Salzkonsum ist gesundheitsschädlich.",
+      "Der Verzehr von rohem oder teilweise gegartem Fleisch, Meeresfrüchten oder Eiern kann das Risiko von Lebensmittelvergiftungen erhöhen.",
+      "An der Bar wird kein Aufpreis für das Teilen von Gerichten berechnet.",
+      "Wenn Sie der Meinung sind, dass Sie nicht fahrtüchtig sind, informieren Sie bitte die Empfangsdame. Sie wird ein Taxi für Sie rufen."
+    ],
+    "avisoPrecios": "* Preise ohne nationale Steuern"
+  },
+  "categorias": [
+    {
+      "nombre": "VORSPEISEN",
+      "items": [
+        {
+          "nombre": "POTATO SKINS",
+          "descripcion": "(Kartoffelschalen mit Käse, Speck und Schnittlauch überbacken)",
+          "precios": {
+            "base": "1",
+            "final": "2"
+          }
+        },
+        {
+          "nombre": "CHICAGO STYLE SPINACH DIP®",
+          "descripcion": "(Spinat-Dip mit weißer Soße und Käse, serviert mit Tortilla-Chips, scharfer Soße und Frischkäse)",
+          "precios": {
+            "base": "11487*",
+            "final": "13900"
+          }
+        },
+        {
+          "nombre": "KANSAS CHICKEN TENDERS",
+          "descripcion": "(Gewürzte Hähnchenstreifen, serviert mit Honig-Senf-Soße)",
+          "precios": {
+            "base": "11487*",
+            "final": "13900"
+          }
+        },
+        {
+          "nombre": "KANSAS ROLLS",
+          "descripcion": "(Knusprige Hähnchen- und Gemüserollen, gewürzt mit Hausgewürzen, serviert mit scharfer Soße und Käse)",
+          "precios": {
+            "base": "11983*",
+            "final": "14500"
+          }
+        },
+        {
+          "nombre": "SMOKED SALMON WITH HOMEMADE DRESSING",
+          "descripcion": "(Geräucherter Lachs, serviert mit kleinen Toasts und Chef-Dressing)",
+          "precios": {
+            "base": "18595*",
+            "final": "22500"
+          }
+        }
+      ]
+    },
+    {
+      "nombre": "FLATBREADS®",
+      "items": [
+        {
+          "nombre": "BARBECUE CHICKEN FLATBREAD®",
+          "descripcion": "(Fladenbrot mit Hähnchen, gemischtem Käse, Ziegenkäse, Zwiebeln und Koriander, leicht mit Barbecue-Soße gewürzt)",
+          "precios": {
+            "base": "10991*",
+            "final": "13300"
+          }
+        },
+        {
+          "nombre": "STEAK & MUSHROOMS FLATBREAD®",
+          "descripcion": "(Fladenbrot mit Lendenstück, Blauschimmelkäse, Champignons und Spinat)",
+          "precios": {
+            "base": "11983*",
+            "final": "14500"
+          }
+        },
+        {
+          "nombre": "SHRIMP GOAT CHEESE & DATES FLATBREAD®",
+          "descripcion": "(Fladenbrot mit gerösteten Garnelen, Datteln, Paprika und Ziegenkäse)",
+          "precios": {
+            "base": "12892*",
+            "final": "15600"
+          }
+        }
+      ]
+    },
+    {
+      "nombre": "SALATE",
+      "nota": "Für geteilte Gerichte wird ein Aufpreis von (9504*) 11500 $ berechnet",
+      "items": [
+        {
+          "nombre": "GRILLED CHICKEN SALAD®",
+          "descripcion": "(Frische saisonale Salate, Kohl, gegrillte Hähnchenscheiben und Tortillastreifen, angemacht mit Honig-Limetten-Vinaigrette und Erdnusssoße)",
+          "precios": {
+            "base": "18264*",
+            "final": "22100"
+          },
+          "opciones": [
+            {
+              "nombre": "Salatoption mit Garnelen vom Holzkohlegrill",
+              "precios": {
+                "base": "19917*",
+                "final": "24100"
+              }
+            }
+          ]
+        },
+        {
+          "nombre": "MEDITERRANEAN SALAD®",
+          "descripcion": "(Frische saisonale Salate, Feta-Käse, schwarze Oliven, gegrilltes Hähnchen und Tortillastreifen, angemacht mit klassischer Vinaigrette)",
+          "precios": {
+            "base": "18677*",
+            "final": "22600"
+          }
+        },
+        {
+          "nombre": "CAESAR SALAD",
+          "descripcion": "(Frischer saisonaler Salat, Croutons und Reggianito-Käse mit Caesar-Dressing)",
+          "precios": {
+            "base": "13719*",
+            "final": "16600"
+          },
+          "opciones": [
+            {
+              "nombre": "mit panierten Hähnchenstreifen oder gegrillten Hähnchenscheiben",
+              "precios": {
+                "base": "17851*",
+                "final": "21600"
+              }
+            },
+            {
+              "nombre": "mit Garnelen vom Holzkohlegrill",
+              "precios": {
+                "base": "19917*",
+                "final": "24100"
+              }
+            },
+            {
+              "nombre": "mit geräuchertem Lachs",
+              "precios": {
+                "base": "22396*",
+                "final": "27100"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "BURGER UND SANDWICHES",
+      "nota": "Die Burger sind hausgemacht und werden täglich frisch zubereitet.",
+      "items": [
+        {
+          "nombre": "CHEESEBURGER (mit Speck zusätzlich (2066*) 2500 $)",
+          "descripcion": "(Hausgemachter Burger mit Cheddar-Käse, Salat, Tomate, Gurke und Zwiebel, serviert mit Pommes frites)",
+          "precios": {
+            "base": "19090*",
+            "final": "23100"
+          }
+        },
+        {
+          "nombre": "CLUB SANDWICH",
+          "descripcion": "(Kaltes Sandwich mit Schinken, Käse und geschnittenem Hähnchen mit Speck, Tomate und Salat, serviert auf Weizenbrot mit Pommes frites)",
+          "precios": {
+            "base": "20826*",
+            "final": "25200"
+          }
+        }
+      ]
+    },
+    {
+      "nombre": "BEILAGEN",
+      "nota": "Als Hauptgericht zusätzlich (9504*) 11500 $.",
+      "items": [
+        {
+          "nombre": "WHITE RICE",
+          "descripcion": "(Weißer Reis)",
+          "precios": {
+            "base": "9504*",
+            "final": "11500"
+          }
+        },
+        {
+          "nombre": "MASHED POTATO",
+          "descripcion": "(Kartoffelpüree)",
+          "precios": {
+            "base": "10330*",
+            "final": "12500"
+          }
+        },
+        {
+          "nombre": "FRENCH FRIES",
+          "descripcion": "(Pommes frites)",
+          "precios": {
+            "base": "9504*",
+            "final": "11500"
+          }
+        },
+        {
+          "nombre": "QUINOA MEDLEY",
+          "descripcion": "(Dreifarbige Quinoa, Mandeln, Maiskörner und Rosinen mit einem Joghurt-Dressing)",
+          "precios": {
+            "base": "10330*",
+            "final": "12500"
+          }
+        },
+        {
+          "nombre": "FRESH VEGETABLES",
+          "descripcion": "(Geröstetes Gemüse, Brokkoli oder Zucchini vom Holzkohlegrill)",
+          "precios": {
+            "base": "9504*",
+            "final": "11500"
+          }
+        },
+        {
+          "nombre": "CREAMED SPINACH",
+          "descripcion": "(Rahmspinat)",
+          "precios": {
+            "base": "10330*",
+            "final": "12500"
+          }
+        },
+        {
+          "nombre": "COLESLAW",
+          "descripcion": "(Weiß- und Rotkohlsalat mit Coleslaw-Dressing)",
+          "precios": {
+            "base": "9504*",
+            "final": "11500"
+          }
+        },
+        {
+          "nombre": "LOADED BAKED POTATO",
+          "descripcion": "(Ofenkartoffel gefüllt mit Butter, Frischkäse, Cheddar-Käse, Speck und Schnittlauch)",
+          "precios": {
+            "base": "10330*",
+            "final": "12500"
+          }
+        }
+      ]
+    },
+    {
+      "nombre": "FLEISCH UND SCHWEIN",
+      "nota": "Wenn Sie diese Gerichte mit einem Salat (Traditionell, Gemischt, Caesar) begleiten möchten, beträgt der Preis (9504*) 11500 $.",
+      "items": [
+        {
+          "nombre": "KANSAS BARBECUE PORK LOIN",
+          "descripcion": "(Zwei leicht geräucherte Schweinelendenmedaillons, mit Barbecue-Soße übergossen, serviert mit Pommes frites)",
+          "precios": {
+            "base": "27768*",
+            "final": "33600"
+          }
+        },
+        {
+          "nombre": "NEW YORK STRIP 400g",
+          "descripcion": "(Auf dem Holzkohlegrill gegrilltes Rumpsteak, serviert mit einer gefüllten Ofenkartoffel)",
+          "precios": {
+            "base": "29504*",
+            "final": "35700"
+          }
+        },
+        {
+          "nombre": "HOUSTON'S BARBECUE RIBS 500g",
+          "descripcion": "(Langsam gegarte Schweinerippchen, gewürzt mit Barbecue-Soße, serviert mit Pommes frites oder einer gefüllten Ofenkartoffel)",
+          "precios": {
+            "base": "29504*",
+            "final": "35700 - 36800"
+          }
+        },
+        {
+          "nombre": "RIB EYE STEAK 400g",
+          "descripcion": "(Auf dem Holzkohlegrill gegrilltes Rib-Eye-Steak, serviert mit Pommes frites)",
+          "precios": {
+            "base": "31239*",
+            "final": "37800"
+          }
+        },
+        {
+          "nombre": "FILET MIGNON",
+          "descripcion": "(Auf dem Holzkohlegrill gegrilltes Rinderfilet, serviert mit einer gefüllten Ofenkartoffel)",
+          "precios": {
+            "base": "31239*",
+            "final": "37800"
+          }
+        },
+        {
+          "nombre": "HAWAIIAN STEAK 400g",
+          "descripcion": "(In Sojasoße, Ananas und Ingwer mariniertes Rib-Eye-Steak, auf dem Holzkohlegrill gegrillt und mit Kartoffelpüree serviert)",
+          "precios": {
+            "base": "31239*",
+            "final": "37800"
+          }
+        }
+      ]
+    },
+    {
+      "nombre": "FISCH",
+      "items": [
+        {
+          "nombre": "CILANTRO SHRIMP",
+          "descripcion": "(Garnelenspieß serviert auf einem Reisbett mit Korianderöl, gehackter Paprika und Schnittlauch, begleitet von Rahmspinat)",
+          "precios": {
+            "base": "26033*",
+            "final": "31500"
+          }
+        },
+        {
+          "nombre": "FRESH GRILLED SALMON 300g",
+          "descripcion": "(Auf dem Holzkohlegrill gegrilltes Lachsfilet, serviert mit Pommes frites)",
+          "precios": {
+            "base": "28181*",
+            "final": "34100"
+          }
+        },
+        {
+          "nombre": "CEDAR PLANK SALMON 300g",
+          "descripcion": "(Lachs im Lehmofen auf einem Zedernbrett gebacken, mit Senfglasur bestrichen und mit einer gefüllten Ofenkartoffel serviert)",
+          "precios": {
+            "base": "29090*",
+            "final": "35200"
+          }
+        }
+      ]
+    },
+    {
+      "nombre": "GEFLÜGEL",
+      "items": [
+        {
+          "nombre": "GRILLED CHICKEN BREAST",
+          "descripcion": "(Unmarinierte, entbeinte Hähnchenbrust, auf dem Holzkohlegrill gegrillt mit gedämpftem Brokkoli)",
+          "precios": {
+            "base": "17355*",
+            "final": "21000"
+          }
+        },
+        {
+          "nombre": "BARBECUE CHICKEN",
+          "descripcion": "(Entbeinte Hähnchenbrust, auf dem Holzkohlegrill gegrillt mit Barbecue-Soße, serviert mit Pommes frites)",
+          "precios": {
+            "base": "18264*",
+            "final": "22100"
+          }
+        },
+        {
+          "nombre": "KANSAS CHICKEN",
+          "descripcion": "(Entbeinte Hähnchenbrust, auf dem Holzkohlegrill gegrillt mit gemischtem Käse, gehackter Tomate und Frühlingszwiebeln, serviert mit Pommes frites)",
+          "precios": {
+            "base": "19090*",
+            "final": "23100"
+          }
+        },
+        {
+          "nombre": "TENNESSEE CHICKEN AND FRIENDS",
+          "descripcion": "(Entbeinte Hähnchenbrust, auf dem Holzkohlegrill gegrillt mit Barbecue-Soße, geräuchertem Schinken und Käse, serviert mit Pommes frites)",
+          "precios": {
+            "base": "19090*",
+            "final": "23100"
+          }
+        }
+      ]
+    },
+    {
+      "nombre": "PASTA",
+      "nota": "Für geteilte Gerichte wird ein Aufpreis von (9504*) 11500 $ berechnet",
+      "items": [
+        {
+          "nombre": "VEGETARIAN PLATTER",
+          "descripcion": "(Auf dem Holzkohlegrill gegrillte Zucchini, Quinoa-Medley, Reis und Brokkoli)",
+          "precios": {
+            "base": "16528*",
+            "final": "20000"
+          }
+        },
+        {
+          "nombre": "GREEK PASTA",
+          "descripcion": "(Al dente italienische Penne in einer Tomatensoße mit Portobello-Pilzen, Knoblauch, Basilikum, schwarzen Oliven und Speck, serviert mit Ziegenkäse und Kapern)",
+          "precios": {
+            "base": "18181*",
+            "final": "22000"
+          }
+        },
+        {
+          "nombre": "ARIZONA PASTA",
+          "descripcion": "(Al dente italienische Penne, serviert mit Alfredo-Soße, Hähnchen, Paprika und Arizona-Gewürzen)",
+          "precios": {
+            "base": "19008*",
+            "final": "23000"
+          }
+        },
+        {
+          "nombre": "SMOKED SALMON PASTA",
+          "descripcion": "(Al dente italienische Linguine, serviert mit einer Sahnesoße, geräuchertem Lachs, Weißwein, Paprika und frischem Dill)",
+          "precios": {
+            "base": "21735*",
+            "final": "26300"
+          }
+        }
+      ]
+    },
+    {
+      "nombre": "KINDER",
+      "nota": "Menü für Kinder unter 10 Jahren",
+      "items": [
+        {
+          "nombre": "KID PASTA",
+          "descripcion": "(Fusilli-Pasta mit Sahne-, Marinara- oder Rosé-Soße)",
+          "precios": {
+            "base": "11322*",
+            "final": "13700"
+          }
+        },
+        {
+          "nombre": "KID CHEESEBURGER",
+          "descripcion": "(Hausgemachter Burger mit Käse, serviert mit Pommes frites)",
+          "precios": {
+            "base": "13057*",
+            "final": "15800"
+          }
+        },
+        {
+          "nombre": "KID CHICKEN TENDER",
+          "descripcion": "(Panierte Hähnchenstücke, serviert mit Pommes frites)",
+          "precios": {
+            "base": "13057*",
+            "final": "15800"
+          }
+        },
+        {
+          "nombre": "KID BARBECUE RIBS",
+          "descripcion": "(Schweinerippchen nach Kansas-Art, serviert mit Pommes frites)",
+          "precios": {
+            "base": "13884*",
+            "final": "16800"
+          }
+        }
+      ]
+    },
+    {
+      "nombre": "DESSERTS",
+      "nota": "mit Schokoladen- oder Dulce-de-leche-Soße zusätzlich (1652*) 2000 $",
+      "items": [
+        {
+          "nombre": "CARROT CAKE",
+          "descripcion": "(Karottenkuchen mit Kokosnuss, Walnüssen und Zimt mit Frischkäseglasur)",
+          "precios": {
+            "base": "9090*",
+            "final": "11000"
+          }
+        },
+        {
+          "nombre": "KEY LIME PIE",
+          "descripcion": "(Köstlicher Limettenkuchen, serviert mit Schlagsahne)",
+          "precios": {
+            "base": "9090*",
+            "final": "11000"
+          }
+        },
+        {
+          "nombre": "APPLE NUT COBBLER",
+          "descripcion": "(Apfelkuchen mit Walnüssen, Karamell und Vanilleeis)",
+          "precios": {
+            "base": "10000*",
+            "final": "12100"
+          }
+        },
+        {
+          "nombre": "FIVE NUT BROWNIE",
+          "descripcion": "(Hausgemachter Brownie mit fünf verschiedenen Nusssorten und Erdnüssen, serviert mit Vanilleeis)",
+          "precios": {
+            "base": "10826*",
+            "final": "13100"
+          }
+        },
+        {
+          "nombre": "GOING BANANAS",
+          "descripcion": "(Warmer Bananenkuchen mit Haselnusscreme-Glasur, serviert mit Dulce-de-leche-Soße und Vanilleeis)",
+          "precios": {
+            "base": "10826*",
+            "final": "13100"
+          }
+        },
+        {
+          "nombre": "ARGENTINEAN STYLE CHEESECAKE",
+          "descripcion": "(Dulce-de-leche-Käsekuchen, serviert mit Sahne und Dulce-de-leche-Soße)",
+          "precios": {
+            "base": "12148*",
+            "final": "14700"
+          }
+        },
+        {
+          "nombre": "KANSAS CHEESECAKE",
+          "descripcion": "(Klassischer Käsekuchen nach New Yorker Art mit Sahne, weißen Schokoladenspänen und Himbeersoße)",
+          "precios": {
+            "base": "12148*",
+            "final": "14700"
+          }
+        },
+        {
+          "nombre": "HOT FUDGE SUNDAE",
+          "descripcion": "(Vanilleeis mit heißer Schokoladensoße, Sahne und kandierten Pekannüssen)",
+          "precios": {
+            "base": "12561*",
+            "final": "15200"
+          }
+        }
+      ]
+    },
+    {
+      "nombre": "KAFFEESPEZIALITÄTEN",
+      "items": [
+        {
+          "nombre": "IRISH COFFEE",
+          "descripcion": "(Irischer Whiskey und Sahne)",
+          "precios": {
+            "base": "6942*",
+            "final": "8400"
+          }
+        },
+        {
+          "nombre": "JAMAICAN COFFEE",
+          "descripcion": "(Rum und Kaffeelikör)",
+          "precios": {
+            "base": "6942*",
+            "final": "8400"
+          }
+        },
+        {
+          "nombre": "KEOKE COFFEE",
+          "descripcion": "(Brandy, Kaffeelikör und Crème de Cacao)",
+          "precios": {
+            "base": "6942*",
+            "final": "8400"
+          }
+        }
+      ]
+    },
+    {
+      "nombre": "GETRÄNKE",
+      "items": [
+        {
+          "nombre": "COCA-COLA PRODUKTE",
+          "precios": {
+            "base": "4049*",
+            "final": "4900"
+          }
+        },
+        {
+          "nombre": "VILLAVICENCIO STILLES WASSER",
+          "precios": {
+            "base": "3636*",
+            "final": "4400"
+          }
+        },
+        {
+          "nombre": "VILLAVICENCIO MINERALWASSER",
+          "precios": {
+            "base": "3636*",
+            "final": "4400"
+          }
+        },
+        {
+          "nombre": "AROMATISIERTE WASSER",
+          "precios": {
+            "base": "3636*",
+            "final": "4400"
+          }
+        },
+        {
+          "nombre": "SAN PELLEGRINO MINERALWASSER",
+          "precios": {
+            "base": "11322*",
+            "final": "13700"
+          }
+        },
+        {
+          "nombre": "ACQUA PANNA STILLES WASSER",
+          "precios": {
+            "base": "11322*",
+            "final": "13700"
+          }
+        },
+        {
+          "nombre": "EISTEE",
+          "precios": {
+            "base": "4049*",
+            "final": "4900"
+          }
+        },
+        {
+          "nombre": "ARNOLD PALMER",
+          "precios": {
+            "base": "4628*",
+            "final": "5600"
+          }
+        },
+        {
+          "nombre": "LIMONADE",
+          "precios": {
+            "base": "5867*",
+            "final": "7100"
+          }
+        },
+        {
+          "nombre": "SÄFTE (ORANGE - GRAPEFRUIT)",
+          "precios": {
+            "base": "5454*",
+            "final": "6600"
+          }
+        },
+        {
+          "nombre": "LIMONADE MIT MINZE UND INGWER",
+          "precios": {
+            "base": "6446*",
+            "final": "7800"
+          }
+        },
+        {
+          "nombre": "TWININGS TEE",
+          "precios": {
+            "base": "4049*",
+            "final": "4900"
+          }
+        },
+        {
+          "nombre": "ESPRESSO / MACCHIATO",
+          "precios": {
+            "base": "4049*",
+            "final": "4900"
+          }
+        },
+        {
+          "nombre": "CAPPUCCINO",
+          "precios": {
+            "base": "4545*",
+            "final": "5500"
+          }
+        },
+        {
+          "nombre": "KAFFEE (KAPSELN)",
+          "precios": {
+            "base": "4545*",
+            "final": "5500"
+          }
+        },
+        {
+          "nombre": "CAPPUCCINO (KAPSELN)",
+          "precios": {
+            "base": "4958*",
+            "final": "6000"
+          }
+        }
+      ]
+    }
+  ]
+}

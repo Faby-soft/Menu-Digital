@@ -1,0 +1,657 @@
+{
+  "informacionGeneral": {
+    "notasSuperiores": [
+      "If your health requires a special dish, please consult your waiter."
+    ],
+    "notasInferiores": [
+      "Bread must be requested.",
+      "Excessive salt consumption is harmful to health.",
+      "Consuming raw or partially cooked meat, seafood, or eggs may increase the risk of foodborne illness.",
+      "There is no charge for sharing dishes at the bar.",
+      "If you consider that you are not in a condition to drive your vehicle, please inform the hostess. She will call a taxi for you."
+    ],
+    "avisoPrecios": "* Prices without national taxes"
+  },
+  "categorias": [
+    {
+      "nombre": "APPETIZERS",
+      "items": [
+        {
+          "nombre": "POTATO SKINS",
+          "descripcion": "(Potato skins covered with cheese, bacon, and chives)",
+          "precios": {
+            "base": "1",
+            "final": "2"
+          }
+        },
+        {
+          "nombre": "CHICAGO STYLE SPINACH DIP®",
+          "descripcion": "(Spinach dip with white sauce and cheese, served with tortilla chips, hot sauce, and cream cheese)",
+          "precios": {
+            "base": "11487*",
+            "final": "13900"
+          }
+        },
+        {
+          "nombre": "KANSAS CHICKEN TENDERS",
+          "descripcion": "(Seasoned chicken strips served with Honey Mustard sauce)",
+          "precios": {
+            "base": "11487*",
+            "final": "13900"
+          }
+        },
+        {
+          "nombre": "KANSAS ROLLS",
+          "descripcion": "(Crispy chicken and vegetable rolls, seasoned with house spices, served with hot sauce and cheese)",
+          "precios": {
+            "base": "11983*",
+            "final": "14500"
+          }
+        },
+        {
+          "nombre": "SMOKED SALMON WITH HOMEMADE DRESSING",
+          "descripcion": "(Smoked salmon, served with small toasts and chef's dressing)",
+          "precios": {
+            "base": "18595*",
+            "final": "22500"
+          }
+        }
+      ]
+    },
+    {
+      "nombre": "FLATBREADS®",
+      "items": [
+        {
+          "nombre": "BARBECUE CHICKEN FLATBREAD®",
+          "descripcion": "(Flatbread served with chicken, mixed cheeses, goat cheese, onions, and cilantro, lightly seasoned with barbecue sauce)",
+          "precios": {
+            "base": "10991*",
+            "final": "13300"
+          }
+        },
+        {
+          "nombre": "STEAK & MUSHROOMS FLATBREAD®",
+          "descripcion": "(Flatbread served with tenderloin, blue cheese, mushrooms, and spinach)",
+          "precios": {
+            "base": "11983*",
+            "final": "14500"
+          }
+        },
+        {
+          "nombre": "SHRIMP GOAT CHEESE & DATES FLATBREAD®",
+          "descripcion": "(Flatbread served with roasted shrimp, dates, bell peppers, and goat cheese)",
+          "precios": {
+            "base": "12892*",
+            "final": "15600"
+          }
+        }
+      ]
+    },
+    {
+      "nombre": "SALADS",
+      "nota": "Dishes that are shared will have a surcharge of (9504*) $11500",
+      "items": [
+        {
+          "nombre": "GRILLED CHICKEN SALAD®",
+          "descripcion": "(Fresh seasonal lettuces, cabbage, grilled chicken slices, and tortilla strips, dressed with Honey Lime Vinaigrette and Peanut Sauce)",
+          "precios": {
+            "base": "18264*",
+            "final": "22100"
+          },
+          "opciones": [
+            {
+              "nombre": "Option with wood-fired shrimp",
+              "precios": {
+                "base": "19917*",
+                "final": "24100"
+              }
+            }
+          ]
+        },
+        {
+          "nombre": "MEDITERRANEAN SALAD®",
+          "descripcion": "(Fresh seasonal lettuces, feta cheese, black olives, grilled chicken, and tortilla strips, dressed with Classic Vinaigrette)",
+          "precios": {
+            "base": "18677*",
+            "final": "22600"
+          }
+        },
+        {
+          "nombre": "CAESAR SALAD",
+          "descripcion": "(Fresh seasonal lettuce, croutons, and Reggianito cheese with Caesar dressing)",
+          "precios": {
+            "base": "13719*",
+            "final": "16600"
+          },
+          "opciones": [
+            {
+              "nombre": "with breaded chicken strips or grilled chicken slices",
+              "precios": {
+                "base": "17851*",
+                "final": "21600"
+              }
+            },
+            {
+              "nombre": "with wood-fired shrimp",
+              "precios": {
+                "base": "19917*",
+                "final": "24100"
+              }
+            },
+            {
+              "nombre": "with smoked salmon",
+              "precios": {
+                "base": "22396*",
+                "final": "27100"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "BURGERS AND SANDWICHES",
+      "nota": "The burgers are homemade and prepared daily.",
+      "items": [
+        {
+          "nombre": "CHEESEBURGER (add bacon (2066*) $2500)",
+          "descripcion": "(Homemade burger with cheddar cheese, lettuce, tomato, cucumber, and onion, served with French fries)",
+          "precios": {
+            "base": "19090*",
+            "final": "23100"
+          }
+        },
+        {
+          "nombre": "CLUB SANDWICH",
+          "descripcion": "(Cold sandwich with ham, cheese, and sliced chicken with bacon, tomato, and lettuce, served on wheat bread with French fries)",
+          "precios": {
+            "base": "20826*",
+            "final": "25200"
+          }
+        }
+      ]
+    },
+    {
+      "nombre": "SIDE DISHES",
+      "nota": "As a main course, add (9504*) $11500.",
+      "items": [
+        {
+          "nombre": "WHITE RICE",
+          "descripcion": "(White rice)",
+          "precios": {
+            "base": "9504*",
+            "final": "11500"
+          }
+        },
+        {
+          "nombre": "MASHED POTATO",
+          "descripcion": "(Mashed potatoes)",
+          "precios": {
+            "base": "10330*",
+            "final": "12500"
+          }
+        },
+        {
+          "nombre": "FRENCH FRIES",
+          "descripcion": "(French fries)",
+          "precios": {
+            "base": "9504*",
+            "final": "11500"
+          }
+        },
+        {
+          "nombre": "QUINOA MEDLEY",
+          "descripcion": "(Tricolor quinoa, almonds, corn kernels, and raisins with a yogurt-based dressing)",
+          "precios": {
+            "base": "10330*",
+            "final": "12500"
+          }
+        },
+        {
+          "nombre": "FRESH VEGETABLES",
+          "descripcion": "(Roasted vegetables, wood-fired broccoli or zucchinis)",
+          "precios": {
+            "base": "9504*",
+            "final": "11500"
+          }
+        },
+        {
+          "nombre": "CREAMED SPINACH",
+          "descripcion": "(Creamed spinach)",
+          "precios": {
+            "base": "10330*",
+            "final": "12500"
+          }
+        },
+        {
+          "nombre": "COLESLAW",
+          "descripcion": "(White and red cabbage salad with coleslaw dressing)",
+          "precios": {
+            "base": "9504*",
+            "final": "11500"
+          }
+        },
+        {
+          "nombre": "LOADED BAKED POTATO",
+          "descripcion": "(Baked potato filled with butter, cream cheese, cheddar cheese, bacon, and chives)",
+          "precios": {
+            "base": "10330*",
+            "final": "12500"
+          }
+        }
+      ]
+    },
+    {
+      "nombre": "MEATS AND PORK",
+      "nota": "If you wish to accompany these dishes with a salad (Traditional, Mixed, Caesar), the cost will be (9504*) $11500.",
+      "items": [
+        {
+          "nombre": "KANSAS BARBECUE PORK LOIN",
+          "descripcion": "(Two lightly smoked pork loin medallions, basted with barbecue sauce, served with French fries)",
+          "precios": {
+            "base": "27768*",
+            "final": "33600"
+          }
+        },
+        {
+          "nombre": "NEW YORK STRIP 400g",
+          "descripcion": "(Wood-fired grilled sirloin steak, served with a loaded baked potato)",
+          "precios": {
+            "base": "29504*",
+            "final": "35700"
+          }
+        },
+        {
+          "nombre": "HOUSTON'S BARBECUE RIBS 500g",
+          "descripcion": "(Slow-cooked pork ribs, seasoned with barbecue sauce, served with French fries or a loaded baked potato)",
+          "precios": {
+            "base": "29504*",
+            "final": "35700 - 36800"
+          }
+        },
+        {
+          "nombre": "RIB EYE STEAK 400g",
+          "descripcion": "(Wood-fired grilled rib eye steak, served with French fries)",
+          "precios": {
+            "base": "31239*",
+            "final": "37800"
+          }
+        },
+        {
+          "nombre": "FILET MIGNON",
+          "descripcion": "(Wood-fired grilled tenderloin steak, served with a loaded baked potato)",
+          "precios": {
+            "base": "31239*",
+            "final": "37800"
+          }
+        },
+        {
+          "nombre": "HAWAIIAN STEAK 400g",
+          "descripcion": "(Rib eye steak marinated in soy sauce, pineapple, and ginger, wood-fired grilled and served with mashed potatoes)",
+          "precios": {
+            "base": "31239*",
+            "final": "37800"
+          }
+        }
+      ]
+    },
+    {
+      "nombre": "FISH",
+      "items": [
+        {
+          "nombre": "CILANTRO SHRIMP",
+          "descripcion": "(Shrimp skewer served over a bed of rice with cilantro oil, chopped bell peppers, and chives, accompanied by creamed spinach)",
+          "precios": {
+            "base": "26033*",
+            "final": "31500"
+          }
+        },
+        {
+          "nombre": "FRESH GRILLED SALMON 300g",
+          "descripcion": "(Wood-fired grilled salmon fillet served with French fries)",
+          "precios": {
+            "base": "28181*",
+            "final": "34100"
+          }
+        },
+        {
+          "nombre": "CEDAR PLANK SALMON 300g",
+          "descripcion": "(Salmon baked in a clay oven on a cedar plank, glazed with mustard and served with a loaded baked potato)",
+          "precios": {
+            "base": "29090*",
+            "final": "35200"
+          }
+        }
+      ]
+    },
+    {
+      "nombre": "POULTRY",
+      "items": [
+        {
+          "nombre": "GRILLED CHICKEN BREAST",
+          "descripcion": "(Unmarinated boneless chicken breast, wood-fired grilled with steamed broccoli)",
+          "precios": {
+            "base": "17355*",
+            "final": "21000"
+          }
+        },
+        {
+          "nombre": "BARBECUE CHICKEN",
+          "descripcion": "(Boneless chicken breast, wood-fired grilled with barbecue sauce, served with French fries)",
+          "precios": {
+            "base": "18264*",
+            "final": "22100"
+          }
+        },
+        {
+          "nombre": "KANSAS CHICKEN",
+          "descripcion": "(Boneless chicken breast, wood-fired grilled with mixed cheese, chopped tomato, and green onions, served with French fries)",
+          "precios": {
+            "base": "19090*",
+            "final": "23100"
+          }
+        },
+        {
+          "nombre": "TENNESSEE CHICKEN AND FRIENDS",
+          "descripcion": "(Boneless chicken breast, wood-fired grilled with barbecue sauce, smoked ham, and cheese, served with French fries)",
+          "precios": {
+            "base": "19090*",
+            "final": "23100"
+          }
+        }
+      ]
+    },
+    {
+      "nombre": "PASTA",
+      "nota": "Dishes that are shared will have a surcharge of (9504*) $11500",
+      "items": [
+        {
+          "nombre": "VEGETARIAN PLATTER",
+          "descripcion": "(Wood-fired grilled zucchinis, quinoa medley, rice, and broccoli)",
+          "precios": {
+            "base": "16528*",
+            "final": "20000"
+          }
+        },
+        {
+          "nombre": "GREEK PASTA",
+          "descripcion": "(Al dente Italian Penne pasta in a tomato sauce with portobello mushrooms, garlic, basil, black olives, and bacon, served with goat cheese and capers)",
+          "precios": {
+            "base": "18181*",
+            "final": "22000"
+          }
+        },
+        {
+          "nombre": "ARIZONA PASTA",
+          "descripcion": "(Al dente Italian Penne pasta served with Alfredo sauce, chicken, bell peppers, and Arizona spices)",
+          "precios": {
+            "base": "19008*",
+            "final": "23000"
+          }
+        },
+        {
+          "nombre": "SMOKED SALMON PASTA",
+          "descripcion": "(Al dente Italian Linguini pasta served with a cream-based sauce, smoked salmon, white wine, bell peppers, and fresh dill)",
+          "precios": {
+            "base": "21735*",
+            "final": "26300"
+          }
+        }
+      ]
+    },
+    {
+      "nombre": "KIDS",
+      "nota": "Menu for children under 10",
+      "items": [
+        {
+          "nombre": "KID PASTA",
+          "descripcion": "(Fusilli pasta with cream, marinara, or pink sauce)",
+          "precios": {
+            "base": "11322*",
+            "final": "13700"
+          }
+        },
+        {
+          "nombre": "KID CHEESEBURGER",
+          "descripcion": "(Homemade burger with cheese, served with French fries)",
+          "precios": {
+            "base": "13057*",
+            "final": "15800"
+          }
+        },
+        {
+          "nombre": "KID CHICKEN TENDER",
+          "descripcion": "(Breaded chicken pieces, served with French fries)",
+          "precios": {
+            "base": "13057*",
+            "final": "15800"
+          }
+        },
+        {
+          "nombre": "KID BARBECUE RIBS",
+          "descripcion": "(Kansas-style pork ribs, served with French fries)",
+          "precios": {
+            "base": "13884*",
+            "final": "16800"
+          }
+        }
+      ]
+    },
+    {
+      "nombre": "DESSERTS",
+      "nota": "add chocolate or dulce de leche sauce (1652*) $2000",
+      "items": [
+        {
+          "nombre": "CARROT CAKE",
+          "descripcion": "(Coconut, walnut, and cinnamon cake with cream cheese frosting)",
+          "precios": {
+            "base": "9090*",
+            "final": "11000"
+          }
+        },
+        {
+          "nombre": "KEY LIME PIE",
+          "descripcion": "(Delicious lime pie served with whipped cream)",
+          "precios": {
+            "base": "9090*",
+            "final": "11000"
+          }
+        },
+        {
+          "nombre": "APPLE NUT COBBLER",
+          "descripcion": "(Apple pie topped with walnuts, caramel, and vanilla ice cream)",
+          "precios": {
+            "base": "10000*",
+            "final": "12100"
+          }
+        },
+        {
+          "nombre": "FIVE NUT BROWNIE",
+          "descripcion": "(Homemade brownie with five types of nuts and peanuts, served with vanilla ice cream)",
+          "precios": {
+            "base": "10826*",
+            "final": "13100"
+          }
+        },
+        {
+          "nombre": "GOING BANANAS",
+          "descripcion": "(Warm banana cake with hazelnut cream frosting, served with dulce de leche sauce and vanilla ice cream)",
+          "precios": {
+            "base": "10826*",
+            "final": "13100"
+          }
+        },
+        {
+          "nombre": "ARGENTINEAN STYLE CHEESECAKE",
+          "descripcion": "(Dulce de leche cheesecake served with cream and dulce de leche sauce)",
+          "precios": {
+            "base": "12148*",
+            "final": "14700"
+          }
+        },
+        {
+          "nombre": "KANSAS CHEESECAKE",
+          "descripcion": "(Classic New York-style cheesecake with cream, white chocolate shavings, and raspberry sauce)",
+          "precios": {
+            "base": "12148*",
+            "final": "14700"
+          }
+        },
+        {
+          "nombre": "HOT FUDGE SUNDAE",
+          "descripcion": "(Vanilla ice cream topped with hot fudge sauce, whipped cream, and candied pecans)",
+          "precios": {
+            "base": "12561*",
+            "final": "15200"
+          }
+        }
+      ]
+    },
+    {
+      "nombre": "COFFEE DRINKS",
+      "items": [
+        {
+          "nombre": "IRISH COFFEE",
+          "descripcion": "(Irish whiskey and cream)",
+          "precios": {
+            "base": "6942*",
+            "final": "8400"
+          }
+        },
+        {
+          "nombre": "JAMAICAN COFFEE",
+          "descripcion": "(Rum and coffee liqueur)",
+          "precios": {
+            "base": "6942*",
+            "final": "8400"
+          }
+        },
+        {
+          "nombre": "KEOKE COFFEE",
+          "descripcion": "(Brandy, coffee liqueur, and crème de cacao)",
+          "precios": {
+            "base": "6942*",
+            "final": "8400"
+          }
+        }
+      ]
+    },
+    {
+      "nombre": "BEVERAGES",
+      "items": [
+        {
+          "nombre": "COCA-COLA LINE SODAS",
+          "precios": {
+            "base": "4049*",
+            "final": "4900"
+          }
+        },
+        {
+          "nombre": "VILLAVICENCIO STILL WATER",
+          "precios": {
+            "base": "3636*",
+            "final": "4400"
+          }
+        },
+        {
+          "nombre": "VILLAVICENCIO SPARKLING WATER",
+          "precios": {
+            "base": "3636*",
+            "final": "4400"
+          }
+        },
+        {
+          "nombre": "FLAVORED WATERS",
+          "precios": {
+            "base": "3636*",
+            "final": "4400"
+          }
+        },
+        {
+          "nombre": "SAN PELLEGRINO SPARKLING WATER",
+          "precios": {
+            "base": "11322*",
+            "final": "13700"
+          }
+        },
+        {
+          "nombre": "ACQUA PANNA STILL WATER",
+          "precios": {
+            "base": "11322*",
+            "final": "13700"
+          }
+        },
+        {
+          "nombre": "ICED TEA",
+          "precios": {
+            "base": "4049*",
+            "final": "4900"
+          }
+        },
+        {
+          "nombre": "ARNOLD PALMER",
+          "precios": {
+            "base": "4628*",
+            "final": "5600"
+          }
+        },
+        {
+          "nombre": "LEMONADE",
+          "precios": {
+            "base": "5867*",
+            "final": "7100"
+          }
+        },
+        {
+          "nombre": "JUICES (ORANGE - GRAPEFRUIT)",
+          "precios": {
+            "base": "5454*",
+            "final": "6600"
+          }
+        },
+        {
+          "nombre": "LEMONADE WITH MINT AND GINGER",
+          "precios": {
+            "base": "6446*",
+            "final": "7800"
+          }
+        },
+        {
+          "nombre": "TWININGS TEA",
+          "precios": {
+            "base": "4049*",
+            "final": "4900"
+          }
+        },
+        {
+          "nombre": "ESPRESSO / MACCHIATO COFFEE",
+          "precios": {
+            "base": "4049*",
+            "final": "4900"
+          }
+        },
+        {
+          "nombre": "CAPPUCCINO",
+          "precios": {
+            "base": "4545*",
+            "final": "5500"
+          }
+        },
+        {
+          "nombre": "COFFEE (CAPSULES)",
+          "precios": {
+            "base": "4545*",
+            "final": "5500"
+          }
+        },
+        {
+          "nombre": "CAPPUCCINO (CAPSULES)",
+          "precios": {
+            "base": "4958*",
+            "final": "6000"
+          }
+        }
+      ]
+    }
+  ]
+}
