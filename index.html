@@ -12,11 +12,20 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
 </head>
 <body>
+
     <div class="video-background">
-        <iframe src="https://www.youtube.com/embed/NKoJDyKo1QQ?autoplay=1&mute=1&loop=1&playlist=NKoJDyKo1QQ&controls=0&showinfo=0&autohide=1&modestbranding=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        <iframe 
+            src="https://www.youtube.com/embed/NKoJDyKo1QQ?autoplay=1&mute=1&loop=1&playlist=NKoJDyKo1QQ&controls=0&showinfo=0&autohide=1&modestbranding=1" 
+            frameborder="0" 
+            allow="autoplay; encrypted-media" 
+            allowfullscreen>
+        </iframe>
     </div>
+
     <div class="video-overlay"></div>
+
     <main class="welcome-container">
+        
         <div class="welcome-header">
             <div class="welcome-logo-container">
                 <img src="https://www.kansasgrillandbar.com.ar/gfx/logo_ac_3.png" alt="Kansas Grill Logo" class="welcome-logo">
@@ -36,6 +45,7 @@
                 <span class="welcome-title" data-lang="cn">欢迎</span>
             </div>
         </div>
+
         <div class="selection-box">
             <div class="dynamic-subtitle-container">
                 <span class="welcome-subtitle active">Seleccione su idioma</span>
@@ -51,6 +61,7 @@
                 <span class="welcome-subtitle">Выберите ваш язык</span>
                 <span class="welcome-subtitle">请选择您的语言</span>
             </div>
+
             <nav class="flags-container">
                 <a href="menu.html?lang=es" class="flag-item" data-lang="es" title="Argentina"><span class="fi fi-ar"></span></a>
                 <a href="menu.html?lang=en" class="flag-item" data-lang="en" title="United States"><span class="fi fi-us"></span></a>
@@ -65,6 +76,7 @@
                 <a href="menu.html?lang=ru" class="flag-item" data-lang="ru" title="Russia"><span class="fi fi-ru"></span></a>
                 <a href="menu.html?lang=cn" class="flag-item" data-lang="cn" title="China"><span class="fi fi-cn"></span></a>
             </nav>
+
             <div class="locations-container">
                 <span class="location-item"><i class="fa-solid fa-location-dot"></i> Palermo</span>
                 <span class="location-item"><i class="fa-solid fa-location-dot"></i> San Isidro</span>
@@ -76,7 +88,6 @@
             </div>
         </div>
     </main>
-    <a href="login.html" class="admin-link" title="Panel de Administración"><i class="fas fa-lock"></i></a>
     <script src="js/welcome.js" defer></script>
 </body>
 </html>

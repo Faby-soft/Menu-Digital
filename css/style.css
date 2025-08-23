@@ -32,14 +32,14 @@ body {
 }
 .menu-item.is-visible { opacity: 1; transform: translateY(0); }
 .menu-item__details { flex-grow: 1; padding-right: 1.5rem; }
-.menu-item__name { font-weight: bold; font-size: 1rem; margin: 0; }
-.menu-item__description { font-size: 0.85rem; font-weight: 300; margin: 0; padding-top: 2px; }
+.menu-item__name { font-weight: bold; font-size: 1.1rem; margin: 0; }
+.menu-item__description { font-size: 0.8rem; font-weight: 300; margin: 0; padding-top: 2px; }
 .menu-item__price-container { display: flex; align-items: baseline; white-space: nowrap; }
 .price-base { color: var(--color-accent); margin-right: 0.75rem; font-size: 0.9rem; }
-.price-final { font-weight: bold; font-size: 1rem; }
+.price-final { font-weight: bold; font-size: 1.1rem; }
 @media (max-width: 1024px) { .health-warning { display: none; } }
 @media (max-width: 768px) {
-    body { padding: 0.5rem; } .menu { padding: 1.5rem; } .menu__logo { max-width: 180px; } .menu__section-title { font-size: 1.5rem; white-space: normal; padding: 0; } .menu__section-title::before, .menu__section-title::after { display: none; } .menu__section-title { border-bottom: 1px solid var(--color-accent); display: inline-block; width: auto; } .menu-item { flex-direction: column; align-items: flex-start; } .menu-item__price-container { margin-top: 0.5rem; align-self: flex-end; }
+    body { padding: 0.5rem; } .menu { padding: 1.5rem; } .menu__logo { max-width: 180px; } .menu__subtitle { font-size: 0.8rem; } .menu-item__name { font-size: 1.1rem; } .menu-item__description { font-size: 0.8rem; } .menu__section-title { font-size: 1.5rem; white-space: normal; padding: 0; } .menu__section-title::before, .menu__section-title::after { display: none; } .menu__section-title { border-bottom: 1px solid var(--color-accent); display: inline-block; width: auto; } .menu-item { flex-direction: column; align-items: flex-start; } .menu-item__price-container { margin-top: 0.5rem; align-self: flex-end; } .price-final { font-size: 1.1rem; }
 }
 html[dir="rtl"] .menu, html[dir="rtl"] .menu__section-title, html[dir="rtl"] .menu__footer { direction: rtl; }
 html[dir="rtl"] .menu-item__details { padding-right: 0; padding-left: 1.5rem; }
