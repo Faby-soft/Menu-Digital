@@ -72,6 +72,7 @@ function renderMenu(data, lang) {
     });
     positionHealthWarning();
 }
+
 function renderMenuItem(item) {
     let preciosHTML = '';
     if (item.precios) {
@@ -89,6 +90,7 @@ function renderMenuItem(item) {
     }
     return itemHTML;
 }
+
 function positionHealthWarning() {
     const menu = document.querySelector('.menu');
     const warning = document.querySelector('.health-warning');

@@ -50,8 +50,6 @@ function verifyToken(req, res, next) {
     });
 }
 
-app.get('/ping', (req, res) => res.status(200).send({ status: 'online' }));
-
 app.get('/api/menu/:lang', async (req, res) => {
     try {
         const menu = await Menu.findOne({ lang: req.params.lang });
@@ -101,6 +99,7 @@ app.post('/api/prices/update', verifyToken, async (req, res) => {
         }
         res.status(200).send({ message: 'Precios actualizados en todos los idiomas.' });
     } catch (error) {
+        console.error("Error updating prices:", error);
         res.status(500).send({ message: 'Error al actualizar los precios.' });
     }
 });
